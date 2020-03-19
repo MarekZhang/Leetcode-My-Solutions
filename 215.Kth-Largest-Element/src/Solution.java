@@ -34,6 +34,7 @@ public class Solution{
     }
 
     public static int partition(int[] nums, int l, int r){
+        swap(nums, l, (int)(Math.random()*(r - l +1) + l));
         int v = nums[l];
         int i = l + 1;
         int j = r;
@@ -59,7 +60,7 @@ public class Solution{
     }
     public static void main(String[] args){
         int[] nums = {3,2,1,5,6,4,1,1};
-        int k = 7;
+        int k = 1;
         int num = findKthLargest(nums, k);
         System.out.println(num);
     }
