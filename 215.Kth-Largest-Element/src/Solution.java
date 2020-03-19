@@ -1,4 +1,5 @@
-/*Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+/* 215. Kth Largest Element in an Array
+Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
 Example 1:
 
@@ -14,35 +15,40 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 public class Solution{
     public static int findKthLargest(int[] nums, int k) {
-        
+        if(nums.length == 1)
+            return nums[0];
         int l = 0;
         int r = nums.length - 1;
-        int p = 0;
-        while( true){
-            if (l == r)
-                return nums[l];
-            int i = l + 1;
-            int j = r;
-            while(true){
-                int v = nums[l];
-                while(nums[i] < v && i < r)
-                    i++;
-                while(nums[j] > v && j > l)
-                    j--;
-                if(i >= j)
-                    break;
-                swap(nums, i++, j--);
-            }
-            swap(nums, l, j);
-            p = j + 1; //count from zero
+        int p = partition(nums, l, r);
+        int N = nums.length;
 
-            if(p == k)
-                return nums[p];
-            else if( p < k)
+        while( p != N - k){
+            if( p < N - k)
                 l = p + 1;
-            else 
-                r = p -1;  
-        } 
+            else if( p > N - k)
+                r = p - 1;
+            p = partition(nums, l, r);
+        }
+
+        return nums[p];
+    }
+
+    public static int partition(int[] nums, int l, int r){
+        int v = nums[l];
+        int i = l + 1;
+        int j = r;
+        while(true){
+            while(i <= r && nums[i] < v)
+                i++;
+            while(j > l && nums[j] > v)
+                j--;
+            if( i >= j)
+                break;
+            swap(nums, i++, j--);    
+        }
+        swap(nums, l, j);//j已经-1了 此时就是partition应该返回的位置
+
+        return j;
 
     }
 
@@ -52,8 +58,8 @@ public class Solution{
         nums[j] = tempt;
     }
     public static void main(String[] args){
-        int[] nums = {3,2,1,5,6,4};
-        int k = 6;
+        int[] nums = {3,2,1,5,6,4,1,1};
+        int k = 7;
         int num = findKthLargest(nums, k);
         System.out.println(num);
     }
