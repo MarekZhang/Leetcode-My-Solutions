@@ -28,7 +28,7 @@ class Solution {
 
         while(l < N) {
             
-            if(r < N - 1 && !subStr.contains(s.substring(r+1, r + 2))){
+            if(r < N - 1 && !subStr.contains(s.substring(r + 1, r + 2))){
                 subStr = s.substring(l, ++r + 1);//bound of substring method is [i,j)s
             }
             else
