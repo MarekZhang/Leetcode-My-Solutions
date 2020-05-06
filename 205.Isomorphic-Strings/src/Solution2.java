@@ -2,9 +2,6 @@
 public class Solution2 {
     public static boolean isIsomorphic(String s, String t){
 
-        if(s.length() != t.length())
-            return false;
-
         char[] sArr = new char[256];
         boolean[] used = new boolean[256];
 
