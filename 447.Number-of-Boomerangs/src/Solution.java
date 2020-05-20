@@ -43,10 +43,10 @@ public class Solution{
                 map.put(dist, count + 1);
             }
 
-            ArrayList distList = new ArrayList(map.keySet());
+            // ArrayList distList = new ArrayList(map.keySet());
 
-            for(int k = 0; k < distList.size(); k++){
-                int distCount = map.get(distList.get(k));
+            for(Integer in: map.keySet()){
+                int distCount = map.get(in);
                 if( distCount >= 2)
                     result += (distCount * (distCount - 1));
             }
@@ -56,6 +56,6 @@ public class Solution{
     }
 
     private static int calculateDist(int[] i, int[]j ){
-        return (int) ( Math.pow((i[0] - j[0]), 2) + Math.pow((i[1] - j[1]), 2) );
+        return (i[0] - j[0]) * (i[0] - j[0]) + (i[1] - j[1]) * (i[1] - j[1]);
     }
 }
