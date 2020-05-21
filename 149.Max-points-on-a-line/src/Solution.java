@@ -63,6 +63,7 @@ class Solution{
                 }
             }
 
+            //all the points are the same point, in that case the map is empty
             if(map.keySet().isEmpty())
                 return samePoints;
 
