@@ -78,7 +78,5 @@ class Solution {
 
         ListNode head2 = reverseBetween(head, 2,5);
         NodeUtil.printList(head2);
-
-        
     }
 }
