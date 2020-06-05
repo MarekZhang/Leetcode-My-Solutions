@@ -62,7 +62,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,3,4,4,5};
+        int[] arr = {1,1,1,2,2,3,3,4,4,5};
         ListNode head = NodeUtil.createList(arr, arr.length);
         NodeUtil.printList(head);
 
