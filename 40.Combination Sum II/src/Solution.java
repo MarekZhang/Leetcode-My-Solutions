@@ -44,6 +44,7 @@ class Solution {
         if(candidates == null || candidates.length == 0)
             return res;
         LinkedList<Integer> tempt = new LinkedList<>();
+        Arrays.sort(nums);
 
         dfs(candidates, 0, target, tempt);
 
@@ -57,7 +58,7 @@ class Solution {
             res.add(new LinkedList<Integer>(list));
             return;
         }
-        Arrays.sort(nums);
+
         
         Set<Integer> set = new HashSet<>();
         for(int i = index; i < nums.length; i++){
