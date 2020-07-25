@@ -26,31 +26,43 @@ Output: [[1,2,6], [1,3,5], [2,3,4]]
  */
 
 class Solution {
-    List<List<Integer>> res = new ArrayList<>();
-
+    List<List<Integer>> res = new ArrayList<List<Integer>>();
+  
     public List<List<Integer>> combinationSum3(int k, int n) {
-        if(n < k)
-            return res;
-        
-        LinkedList<Integer> tempt = new LinkedList<>();
-        dfs(k, n, tempt);
-
+      if(n < k)
         return res;
+  
+      LinkedList<Integer> tempt = new LinkedList<Integer>();
+      dfs(1, k, n, tempt);
+  
+      return res;
     }
-
-    private void dfs(int k, int n, LinkedList<Integer> tempt){
-        if(tempt.size() == k){
-            if(n == 0)
-                res.add(tempt);
-        }
-
-        for(int i = 1; i <= n - (k - tempt.size()); i++){
-            tempt.addLast(i);
-            dfs(k - i, n, tempt);
-            tempt.removeLast();
-        }
-
-
+  
+    private void dfs(int startPoint, int k, int n, LinkedList<Integer> tempt){
+      if(tempt.size() == k){
+        if(n == sumOfList(tempt))
+          res.add(new LinkedList<Integer>(tempt));
         return;
+      }
+  
+      for(int i = startPoint; i <= 9 - k - (k - tempt.size()) + 1; i++){
+        tempt.addLast(i);
+        dfs(i + 1, k , n, tempt);
+        tempt.removeLast();
+      }
+  
+      return;
     }
-}
+  
+    private int sumOfList(LinkedList<Integer> list){
+      int sum = 0;
+      for(Integer e: list)
+        sum+=e;
+      return sum;
+    }
+  
+    public static void main(String[] args) {
+      List<List<Integer>> list = new Solution().combinationSum3(3, 7);
+      System.out.println(list);
+    }
+  }
