@@ -39,30 +39,26 @@ class Solution {
     }
   
     private void dfs(int startPoint, int k, int n, LinkedList<Integer> tempt){
-      if(tempt.size() == k){
-        if(n == sumOfList(tempt))
-          res.add(new LinkedList<Integer>(tempt));
+      if(k==0 && m==0){
+        res.add(new LinkedList<Integer>(tempt));
         return;
       }
+
+      if(k==0)
+        return;
   
-      for(int i = startPoint; i <= 9 - k - (k - tempt.size()) + 1; i++){
+      for(int i = startPoint; i <= 9; i++){
         tempt.addLast(i);
-        dfs(i + 1, k , n, tempt);
+        dfs(i + 1, k - 1 , n - i, tempt);
         tempt.removeLast();
       }
   
       return;
     }
   
-    private int sumOfList(LinkedList<Integer> list){
-      int sum = 0;
-      for(Integer e: list)
-        sum+=e;
-      return sum;
-    }
   
     public static void main(String[] args) {
       List<List<Integer>> list = new Solution().combinationSum3(3, 7);
       System.out.println(list);
     }
-  }
+}
