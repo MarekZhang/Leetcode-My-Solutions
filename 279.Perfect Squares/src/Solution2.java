@@ -34,7 +34,7 @@ class Solution2 {
         memo[1] = 1;
 
         for(int i = 2; i <= n; i++)
-            for(int j = 1; j <= Math.sqrt(i); j++){
+            for(int j = 1; i - j * j >= 0; j++){
                 int diff = i - j * j;
                 memo[i] = Math.min(memo[diff] + 1, memo[i]);
             }
