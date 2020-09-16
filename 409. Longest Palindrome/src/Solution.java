@@ -38,6 +38,7 @@ s consits of lower-case and/or upper-case English letters only.
  */
 
 class Solution {
+    //time O(n) | space O(n)
     public int longestPalindrome(String s) {
         if(s == null || s.length() == 0)
             return 0;
