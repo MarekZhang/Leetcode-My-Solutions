@@ -8,4 +8,4 @@ dynamic with greedy algorithm
 
 ## Follow Up
 
-[300. Longest Increasing Subsequence](../300. Longest Increasing Subsequence)
+[300. Longest Increasing Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/300.%20Longest%20Increasing%20Subsequence/src)
