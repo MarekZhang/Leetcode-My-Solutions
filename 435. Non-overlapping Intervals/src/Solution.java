@@ -37,14 +37,22 @@ Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap ea
  */
 
 class Solution {
+    //time O(n^2) || space O(n)
     public int eraseOverlapIntervals(int[][] intervals) {
-        if(intervals.length == 0)
+        int n = intervals.length
+        if(n == 0)
             return 0;  
         Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
-        int memo[] = new int[intervals.length];
-        
-        
+        int memo[] = new int[n];
+        Arrays.fill(memo, 1);
 
+        for(int i = 1; i < n; i++)
+            for(int j = 0; j < i; j++){
+                if(intervals[i][0] >= intervals[j][1] && memo[i] <= memo[j])
+                    memo[j] = memo[i] + 1;
+            }
+
+        return memo[n - 1];
     }
 
 }
