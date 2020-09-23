@@ -30,7 +30,7 @@ class IntervalComparator implements Comparator<int[]> {
 2.与求LIS一样的dp方法
 
 ### Solution2
-
+Greedy Algorithm
 
 ## Follow Up
 
