@@ -36,4 +36,5 @@ This repo recors my daily LeetCode algo problems solutions.
     - [148. Sort List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/148.Sort%20List/src)
     - [143. Reorder List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/143.Reorder%20List/src)
     - [141. Linked List Cycle](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/141.%20Linked%20List%20Cycle/src)
-    - [142. Linked List Cycle II]()
+    - [142. Linked List Cycle II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/142.%20Linked%20List%20Cycle%20II/src)
+    - [138. Copy List with Random Pointer]()
