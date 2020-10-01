@@ -41,3 +41,4 @@ This repo recors my daily LeetCode algo problems solutions.
 
 - Bitwise
     - [136. Single Number]()
+    - [137. Single Number II]()
