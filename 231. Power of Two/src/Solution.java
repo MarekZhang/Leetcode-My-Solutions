@@ -42,6 +42,7 @@ class Solution {
         if(n == 0)
             return false;
         long N = (long) n;
+        // N & (-N) get the rightmost 1 bit
         return (N & (-N)) == N;
     }
 }
