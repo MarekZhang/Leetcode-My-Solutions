@@ -40,5 +40,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [138. Copy List with Random Pointer](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/138.%20Copy%20List%20with%20Random%20Pointer)
 
 - Bitwise
-    - [136. Single Number]()
-    - [137. Single Number II]()
+    - [231. Power of Two]()
+    - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
+    - [137. Single Number II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/137.%20Single%20Number%20II/src)
+    - [260. Single Number III]()
