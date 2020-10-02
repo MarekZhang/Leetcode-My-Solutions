@@ -43,4 +43,5 @@ This repo recors my daily LeetCode algo problems solutions.
     - [231. Power of Two](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/231.%20Power%20of%20Two/src)
     - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
     - [137. Single Number II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/137.%20Single%20Number%20II/src)
-    - [260. Single Number III]()
+    - [260. Single Number III](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/260.%20Single%20Number%20III/src)
+    - [191. Number of 1 Bits]()
