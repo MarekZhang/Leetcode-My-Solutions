@@ -52,4 +52,9 @@ This repo recors my daily LeetCode algo problems solutions.
 - Queue and Stack
     - [155. Min Stack](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/155.%20Min%20Stack/src)
     - [150. Evaluate Reverse Polish Notation](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/150.Evaluate%20Reverse%20Polish%20Notation)
-    - [394. Decode String]()
+    - [394. Decode String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/394.%20Decode%20String/src)
+    - [94. Binary Tree Inorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/94.Binary%20Tree%20Inorder%20Traversal/src)
+    - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
+
+- FloodFill
+    - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
