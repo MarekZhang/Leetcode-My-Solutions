@@ -55,7 +55,8 @@ This repo recors my daily LeetCode algo problems solutions.
     - [394. Decode String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/394.%20Decode%20String/src)
     - [94. Binary Tree Inorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/94.Binary%20Tree%20Inorder%20Traversal/src)
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
-    - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src)
+    - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src`)
+    - [542. 01 Matrix]
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
