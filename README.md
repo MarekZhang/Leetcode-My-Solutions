@@ -58,5 +58,8 @@ This repo recors my daily LeetCode algo problems solutions.
     - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src`)
     - [542. 01 Matrix]
 
+- Binary Search
+    - [35. Search Insert Position]()
+
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
