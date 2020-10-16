@@ -59,7 +59,8 @@ This repo recors my daily LeetCode algo problems solutions.
     - [542. 01 Matrix]
 
 - Binary Search
-    - [35. Search Insert Position]()
+    - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
+    - [74. Search a 2D Matrix]
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
