@@ -40,7 +40,7 @@ n == matrix[i].length
  */
 
 class Solution {
-    //time complexity O(logm * logn) || space complexity O(1)
+    //time complexity O(log(m*n)) || space complexity O(1)
     public boolean searchMatrix(int[][] matrix, int target) {
         //traverse vertically find the proper subarray
         if(matrix.length == 0 || matrix[0].length == 0)
@@ -52,9 +52,9 @@ class Solution {
         int mid = 0;
         while(start <= end){
             mid = start + (end - start) / 2;
-            if(matrix[mid/col][mid%row] == target)
+            if(matrix[mid/col][mid%col] == target)
                 return true;
-            else if(matrix[mid/col][mid%row] > target)
+            else if(matrix[mid/col][mid%col] > target)
                 end = mid - 1;
             else
                 start = mid + 1;
