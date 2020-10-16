@@ -60,7 +60,8 @@ This repo recors my daily LeetCode algo problems solutions.
 
 - Binary Search
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
-    - [74. Search a 2D Matrix]
+    - [74. Search a 2D Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/74.%20Search%20a%202D%20Matrix/src)
+    - [278. First Bad Version]()
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
