@@ -62,7 +62,9 @@ This repo recors my daily LeetCode algo problems solutions.
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
     - [74. Search a 2D Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/74.%20Search%20a%202D%20Matrix/src)
     - [278. First Bad Version](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/278.%20First%20Bad%20Version/src)
-    - [153. Find Minimum in Rotated Sorted Array]()
+    - [153. Find Minimum in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/src)
+    - [33. Search in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/33.%20Search%20in%20Rotated%20Sorted%20Array/src)
+    - [81. Search in Rotated Sorted Array II]()
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
