@@ -28,6 +28,7 @@ Output: 0
  */
 
 class Solution {
+    //time complexity O(log(n)) || space complexity O(1)
     public int findMin(int[] nums) {
         if(nums.length == 1)
             return nums[0];
