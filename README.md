@@ -3,6 +3,8 @@ This repo recors my daily LeetCode algo problems solutions.
 
 
 ## Categories
+- Sorting Algorithms
+    - [Sorting Algorithms]() 
 
 - Binary Tree / Binary Search Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
@@ -56,7 +58,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [94. Binary Tree Inorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/94.Binary%20Tree%20Inorder%20Traversal/src)
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
     - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src`)
-    - [542. 01 Matrix]
+    - [542. 01 Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/542.%2001%20Matrix/src)
 
 - Binary Search
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
