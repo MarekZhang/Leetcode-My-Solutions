@@ -4,7 +4,7 @@ This repo recors my daily LeetCode algo problems solutions.
 
 ## Categories
 - Sorting Algorithms
-    - [Sorting Algorithms]() 
+    - [Sorting Algorithms](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Sorting%20Algorithms) 
 
 - Binary Tree / Binary Search Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
