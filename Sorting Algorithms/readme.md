@@ -101,6 +101,52 @@ public class MergeSort {
 }
 ```
 
+### Heap Sort
+- 构建Heap的两个核心function： siftDown(), siftUp()
+- Heap Sort 只用到了siftDown()
+    - 拿到一个无序数组首先要将其构造成一个最大堆，方法是从最后一个非叶子结点[(arr.length - 1 - 1) / 2]开始，进行siftDown操作，直到idx=0的位置做完了siftDown操作，就构建成了一个MaxHeap
+    - 从idx = arr.length - 1开始，每次将数组[0]位置元素与[idx]位置元素交换，这样idx位置元素已经在正确堆位置了,然后对[0]进行siftDown操作
+    - 直到idx = 0，数组排序完成
+```java
+class HeapSort{
+  public void sort(int[] nums){
+    int N = nums.length;
+    //从最后一个非叶子结点开始siftDown来构建MaxHeap
+    for(int i = (N - 1 - 1) / 2; i >= 0; i--){
+      siftDown(nums, i, N);
+    }
+    //HeapSort: 1.nums[0]与nums[i]交换，对nums[0]进行siftDown操作
+    for(int i = N - 1; i > 0; i--){
+      swap(nums, 0, i);
+      siftDown(nums, 0, i);//i为最后一个元素的位置此时已经在最终位置上
+    }
+
+    return;
+  }
+
+  //siftDown 需要知道交换元素对index以及堆的大小
+  private void siftDown(int[] nums, int idx, int size){
+    //左子结点没有越界的判断条件
+    while(idx * 2 + 1 < size){
+      int j = idx * 2 + 1;
+      if(j + 1 < size && nums[j + 1] > nums[j])
+        j++;
+      if(nums[idx] > nums[j])//idx元素已经在正确的位置上
+        break;
+      swap(nums, idx, j);
+      idx = j;
+    }
+  }
+
+  private void swap(int[] nums, int x, int y){
+    int tempt = nums[x];
+    nums[x] = nums[y];
+    nums[y] = tempt;
+  }
+}
+```
+
+
 ### Bubble Sort
 - 循环可能会提前终止，如果没有发生swap
 ```java
