@@ -75,4 +75,5 @@ This repo recors my daily LeetCode algo problems solutions.
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
 
 - Dynamic Programming
-    - [121. Best Time to Buy and Sell Stock]()
+    - [121. Best Time to Buy and Sell Stock](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src)
+    - [53. Maximum Subarray]()
