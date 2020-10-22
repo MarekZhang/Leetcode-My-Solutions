@@ -7,7 +7,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [Sorting Algorithms](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Sorting%20Algorithms) 
 
 - Most Know
-    - [146. LRU Cache]()
+    - [146. LRU Cache](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/146.%20LRU%20Cache/src)
 
 - Binary Tree / Binary Search Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
@@ -69,7 +69,10 @@ This repo recors my daily LeetCode algo problems solutions.
     - [278. First Bad Version](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/278.%20First%20Bad%20Version/src)
     - [153. Find Minimum in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/src)
     - [33. Search in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/33.%20Search%20in%20Rotated%20Sorted%20Array/src)
-    - [81. Search in Rotated Sorted Array II]()
+    - [81. Search in Rotated Sorted Array II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/src)
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
+
+- Dynamic Programming
+    - [121. Best Time to Buy and Sell Stock]()
