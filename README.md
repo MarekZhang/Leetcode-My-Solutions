@@ -76,4 +76,9 @@ This repo recors my daily LeetCode algo problems solutions.
 
 - Dynamic Programming
     - [121. Best Time to Buy and Sell Stock](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src)
-    - [53. Maximum Subarray]()
+    - [53. Maximum Subarray](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/53.%20Maximum%20Subarray/src)
+    - [91. Decode Ways](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/91.Decode%20Ways/src)
+
+
+- Track Back
+  
