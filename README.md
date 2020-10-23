@@ -62,6 +62,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
     - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src`)
     - [542. 01 Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/542.%2001%20Matrix/src)
+    - [742. Closest Leaf in a Binary Tree]()
 
 - Binary Search
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
@@ -79,6 +80,8 @@ This repo recors my daily LeetCode algo problems solutions.
     - [53. Maximum Subarray](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/53.%20Maximum%20Subarray/src)
     - [91. Decode Ways](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/91.Decode%20Ways/src)
 
+- Graph
+    - [742. Closest Leaf in a Binary Tree]()
 
 - Track Back
   
