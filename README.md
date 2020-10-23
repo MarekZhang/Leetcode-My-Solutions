@@ -81,7 +81,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [91. Decode Ways](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/91.Decode%20Ways/src)
 
 - Graph
-    - [742. Closest Leaf in a Binary Tree]()
+    - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
 
 - Track Back
   

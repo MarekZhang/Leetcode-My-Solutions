@@ -28,33 +28,34 @@ You may assume that you have an infinite number of each kind of coin.
 
 
 class Solution {
-    public int coinChange(int[] coins, int amount) {
-      if(amount == 0)//not reasonable
-          return 0;
-        
-      if(amount < 0 || coins.length == 0)
-        return -1;
-  
-      //memo[value] represents the minimum amount of coins needed for filling the value
+  public int coinChange(int[] coins, int amount) {
+      if(coins == null)
+          return -1;
       int[] memo = new int[amount + 1];
-      // Arrays.fill(memo, -1); cannot fill will -1, memo[0] 用来判断当前面值是否正好填充
-      //1.use conis[0] merely finding amount of coins
-      for(int a = 1; a <= amount; a++)
-        memo[a] = a % coins[0] == 0 ? a / coins[0] : -1;
-  
-      //2.update memo
-      for(int i = 1; i < coins.length; i++)
-        //no need to update when amount is lower than coins[i]
-        for(int a = coins[i]; a <= amount; a++){
-          //if(memo[a - coins[i]] == -1) cannot update memo[a]
-          if(memo[a - coins[i]] != -1){
-            if(memo[a] == -1)
-              memo[a] = memo[a - coins[i]] + 1;
-            else
-              memo[a] = Math.min(memo[a], memo[a - coins[i]] + 1);
+      Arrays.fill(memo, -1);
+      memo[0] = 0;
+      
+      for(int i = 0; i < coins.length; i++){
+          int denom = coins[i];
+          for(int j = denom; j <= amount; j++){
+              // if(memo[j] == -1 && memo[j - denom] == -1)
+              //     memo[j] = -1;
+              // else if(memo[j] == -1)
+              //     memo[j] = memo[j - denom] + 1;
+              // else if(memo[j - denom] == -1)
+              //     ;
+              // else
+              //     memo[j] = memo[j] < (memo[j - denom] + 1) ? memo[j] : (memo[j - denom] + 1);
+              if(memo[j - denom] != -1){
+                  if(memo[j] == -1)
+                      memo[j] = memo[j - denom] + 1;
+                  else
+                      memo[j] = memo[j] < (memo[j - denom] + 1) ? memo[j] : (memo[j - denom] + 1);
+              }
           }
-        }
-  
+      }
+
+      
       return memo[amount];
-    }
   }
+}
