@@ -38,8 +38,6 @@ class Solution {
                 }
             }
         }
-
-        
         return memo[amount];
     }
 }
