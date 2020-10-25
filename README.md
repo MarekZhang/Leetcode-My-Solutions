@@ -81,6 +81,7 @@ This repo recors my daily LeetCode algo problems solutions.
     - [91. Decode Ways](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/91.Decode%20Ways/src)
     - [120. Triangle](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/120.Triangle/src)
     - [62. Unique Paths](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/62.Unique%20Paths/src)
+    - [55. Jump Game]()
 
 - Graph
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)

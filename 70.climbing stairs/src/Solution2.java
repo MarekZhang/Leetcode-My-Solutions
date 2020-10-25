@@ -39,7 +39,7 @@ class Solution {
 
     public int climbStairs(int n) {
         memo = new int[n + 2];//in case of n==1
-        Arrays.fill(memo, -1);
+
         memo[1] = 1;
         memo[2] = 2;
 
