@@ -43,23 +43,16 @@ It's guaranteed that the answer will be less than or equal to 2 * 10 ^ 9.
  */
 
 class Solution {
-
+    //time complexity O(m * n) || space complexity O(n)
     public int uniquePaths(int m, int n) {
-        if(m==0 || n==0)
+        if(m == 0 || n == 0)
             return 0;
-        int[][] numOfPaths = new[m][n];
-        
-        for(int i = 0; i < m; i++)
-            numOfPaths[i][0] = 1;
-        
-        for(int i = 0; i < n; i++)
-            numOfPaths[0][i] = 1;
-
-        for(int i = 1; i < m; i++)
+        int[] memo = new int[n];
+        Arrays.fill(memo, 1);
+        for(int i = 1; i< m; i++)
             for(int j = 1; j < n; j++)
-                numOfPaths[i][j] = numOfPaths[i-1][j] + numOfPaths[i][j-1];
-        
-        return numOfPaths[m-1][n-1];
+                memo[j] = memo[j - 1] + memo[j];
+                
+        return memo[n - 1];
     }
-
 }
