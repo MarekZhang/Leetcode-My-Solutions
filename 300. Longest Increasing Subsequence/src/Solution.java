@@ -26,27 +26,22 @@ Follow up: Could you improve it to O(n log n) time complexity?
 //1. what if a == b?
 //time O(n^2) || space O(n)
 class Solution {
+    //brute force
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        if(nums == null || n == 0)
+        if(nums == null || nums.length == 0)
             return 0;
-        if(n == 1)
-            return 1;
-            
-        //memo[i] represents the longest increase sequence length with the array ends with nums[i]
-        int memo[] = new int[n];
+        
+        int[] memo = new int[nums.length];
         Arrays.fill(memo, 1);
-        int maxLIS = 1;
-
-        for(int i = 1; i < n; i++){
+        int res = 1;
+        for(int i = 1; i < nums.length; i++){
             for(int j = 0; j < i; j++){
-                if(nums[i] > nums[j] && memo[i] <= memo[j]){
-                    memo[i] = memo[j] + 1;
-                    maxLIS = maxLIS > memo[i] ? maxLIS : memo[i];
-                }
+                if(nums[i] > nums[j])
+                    memo[i] = Math.max(memo[i], memo[j] + 1);
             }
+            res = res > memo[i] ? res : memo[i];
         }
-
-        return maxLIS;
+        
+        return res;
     }
 }
