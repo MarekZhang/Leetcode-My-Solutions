@@ -1,6 +1,6 @@
 # Leetcode-My-Solutions
 This repo recors my daily LeetCode algo problems solutions.
-
+Algorithm reffered to [greyireland - algorithm-pattern](https://github.com/greyireland/algorithm-pattern)
 
 ## Categories
 - Sorting Algorithms
