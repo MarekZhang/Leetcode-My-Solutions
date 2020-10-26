@@ -1,26 +1,24 @@
 class Solution {
+    //   ' a d c e
+    // ' 0 0 0 0 0
+    // a 0 1 1 1 1
+    // c 0 1 1 2 1
+    // time complexity O(M * N) || space O(M * N)
     public int longestCommonSubsequence(String text1, String text2) {
-        int m = text1.length();
-        int n = text2.length();
-        if(m == 0 || n == 0)
+        int N1 = text1.length();
+        int N2 = text2.length();
+        if(N1 == 0 || N2 == 0)
             return 0;
-
-        int[][] memo = new int[m + 1][n + 1];
-        for(int i = 0; i <= m ; i++)
-            memo[i][n] = 0;
-
-        for(int i = 0; i <=n; i++)
-            memo[m][i] = 0;
-
-        for(int i = n - 1; i >= 0; i--)
-            for(int j = m - 1; j >= 0; j--){
-                if(text2.charAt(i) == text1.charAt(j))
-                    memo[j][i] = memo[j+1][i+1] + 1;
+        
+        int[][] memo = new int[N1 + 1][N2 + 1];
+        for(int i = 1; i <= N1; i++)
+            for(int j = 1; j <= N2; j++){
+               if(text1.charAt(i - 1) == text2.charAt(j - 1))
+                   memo[i][j] = memo[i - 1][j - 1] + 1;
                 else
-                    memo[j][i] = Math.max(memo[j+1][i], memo[j][i+1]);
+                    memo[i][j] = Math.max(memo[i - 1][j], memo[i][j - 1]);
             }
-
-        return memo[0][0];
+                
+        return memo[N1][N2];
     }
-
 }

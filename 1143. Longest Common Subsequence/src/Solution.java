@@ -69,3 +69,38 @@ class Solution {
         return memo[m - 1][n - 1];
     }
 }
+
+
+class Solution {
+  int[][] memo;
+  String str1;
+  String str2;
+  
+  public int longestCommonSubsequence(String text1, String text2) {
+      if(text1.length() == 0 || text2.length() == 0)
+          return 0;
+      memo = new int[text1.length()][text2.length()];
+      for(int[] arr : memo)
+          Arrays.fill(arr, -1);
+      str1 = text1;
+      str2 = text2;
+      
+      return LCS(0, 0);
+  }
+  
+  private int LCS(int idx1, int idx2){
+      if(memo[idx1][idx2] != -1)
+          return memo[idx1][idx2];
+      
+      int letterExcluded = LCS(idx1 + 1, idx2);
+      
+      int letterIncluded = 0;
+      int pos = str2.indexOf(str1.charAt(idx1), idx2);
+      if(pos != -1)
+          letterIncluded = LCS(idx1 + 1, pos + 1) + 1;
+          
+      memo[idx1][idx2] = Math.max(letterExcluded, letterIncluded);
+      
+      return memo[idx1][idx2];
+  }
+}
