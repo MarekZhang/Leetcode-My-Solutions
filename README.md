@@ -1,6 +1,6 @@
 # Leetcode-My-Solutions
 This repo recors my daily LeetCode algo problems solutions.
-Algorithm reffered to [greyireland - algorithm-pattern](https://github.com/greyireland/algorithm-pattern)
+Problems list reffered to [greyireland - algorithm-pattern](https://github.com/greyireland/algorithm-pattern)
 
 ## Categories
 - Sorting Algorithms
@@ -91,7 +91,8 @@ Algorithm reffered to [greyireland - algorithm-pattern](https://github.com/greyi
 - Graph
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
 
-- Track Back
+- Two Pointers
+    - [567. Permutation in String]()
   
 - Compare Strings
-    - [937. Reorder Data in Log Files]()  
+    - [937. Reorder Data in Log Files][](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
