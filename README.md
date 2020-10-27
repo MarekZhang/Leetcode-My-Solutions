@@ -20,7 +20,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [701. Insert into a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/701.%20Insert%20into%20a%20Binary%20Search%20Tree/src)
 
 - Recursion
-    - [24. Swap Nodes in Pairs]()
+    - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
 
 - KnapSack problems
     - [Basic KnapSack Implementation](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/DP%20Knapsack%20Problem/src)
@@ -92,7 +92,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
 
 - Two Pointers
-    - [567. Permutation in String]()
+    - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
   
-- Compare Strings
-    - [937. Reorder Data in Log Files][](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
+- Strings Manipulation
+    - [937. Reorder Data in Log Files](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
+    - []
