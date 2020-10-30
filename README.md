@@ -104,5 +104,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Array
     - [217. Contains Duplicate](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/217.Contains-Duplicate/src)
     - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
-    - [350. Intersection of Two Arrays II]()
+    - [350. Intersection of Two Arrays II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/350.%20Intersection%20of%20Two%20Arrays%20II/src)
 
+- TrackBack
+    - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
