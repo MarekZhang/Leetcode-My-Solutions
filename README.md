@@ -19,6 +19,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [98. Validate Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/98.Validate%20Binary%20Search%20Tree/src)
     - [701. Insert into a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/701.%20Insert%20into%20a%20Binary%20Search%20Tree/src)
     - [450. Delete Node in a BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/450.Delete%20Node%20in%20a%20BST/src)
+    - [814. Binary Tree Pruning]()
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
@@ -105,7 +106,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [217. Contains Duplicate](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/217.Contains-Duplicate/src)
     - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
     - [350. Intersection of Two Arrays II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/350.%20Intersection%20of%20Two%20Arrays%20II/src)
-    - [189. Rotate Array]()
+    - [189. Rotate Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/189.%20Rotate%20Array/src)
 
 - TrackBack
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
