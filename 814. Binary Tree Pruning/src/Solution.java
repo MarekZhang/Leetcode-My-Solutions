@@ -58,7 +58,7 @@ The value of each node will only be 0 or 1.
  * }
  */
 class Solution {
-    //time complexity O(N) || space comlexity O(N)
+    //time complexity O(N) || space comlexity O(H)
     public TreeNode pruneTree(TreeNode root) {
         if(root == null)
             return null;
