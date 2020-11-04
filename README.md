@@ -93,6 +93,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Graph
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
+    - [200. Number of Islands]()
+    - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
 
 - Two Pointers
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
