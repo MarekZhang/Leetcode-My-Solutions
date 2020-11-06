@@ -96,9 +96,11 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands/src)
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
     - [841. Keys and Rooms](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/841.%20Keys%20and%20Rooms/src)
+    - Topological Sort
+        - [207. Course Schedule]()
 
 - Union Find
-    - [1202. Smallest String With Swaps]()
+    - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
 
 - Two Pointers
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
