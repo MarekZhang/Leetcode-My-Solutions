@@ -40,40 +40,42 @@ You may assume that there are no duplicate edges in the input prerequisites.
  */
 
 class Solution {
-    private boolean[] marked;
-    private boolean[] stack;
+    private boolean[] visited;
+    private boolean[] visiting;
     private Map<Integer, List<Integer>> graph = new HashMap<>();
-    //time complexity O(E + V) || space complexity O(E + V)
+    
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        marked = new boolean[numCourses];
-        stack = new boolean[numCourses];
+        visited = new boolean[numCourses];
+        visiting = new boolean[numCourses];
+        //build the graph
         for(int i = 0; i < prerequisites.length; i++){
-            int pre = prerequisites[i][0];
-            int nex = prerequisites[i][1];
-            graph.computeIfAbsent(pre, (set) -> new ArrayList<>());
-            graph.get(pre).add(nex);
+            int key = prerequisites[i][1];
+            graph.computeIfAbsent(key, (list) -> new ArrayList<>());
+            graph.get(key).add(prerequisites[i][0]);
         }
         
         for(int key : graph.keySet()){
-            if(findDirectedCycle(key, graph.get(key)))
-                return false;
+            if(!visited[key])
+                if(findDirectedCycle(key, graph.get(key)))
+                    return false;
         }
         
         return true;
     }
     
-    private boolean findDirectedCycle(int w, List<Integer> vertexes){
-        if(marked[w]) return false;
-        if(stack[w]) return true;
+    private boolean findDirectedCycle(int vertex, List<Integer> adjMatrix){
+        if(visited[vertex]) return false;
+        if(visiting[vertex]) return true;
         
-
-        stack[w] = true;
-        for(int vertex : vertexes){
-            if(graph.containsKey(vertex) && findDirectedCycle(vertex, graph.get(vertex)))
-                return true;
+        visiting[vertex] = true;
+        for(int vert : adjMatrix){
+            if(!visited[vert])
+                if(graph.containsKey(vert) && findDirectedCycle(vert, graph.get(vert)))
+                    return true;
         }
-        marked[w] = true;
-        stack[w] = false;
+        
+        visiting[vertex] = false;
+        visited[vertex] = true;
         
         return false;
     }
