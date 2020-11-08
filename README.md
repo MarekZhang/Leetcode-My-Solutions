@@ -98,7 +98,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [841. Keys and Rooms](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/841.%20Keys%20and%20Rooms/src)
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
-        - [210. Course Schedule II]()
+        - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
+        - [802. Find Eventual Safe States]()
 
 - Union Find
     - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
