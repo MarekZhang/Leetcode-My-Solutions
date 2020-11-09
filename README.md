@@ -92,6 +92,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [509. Fibonacci Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/509.%20Fibonacci%20Number/src)
 
 - Graph
+    - [Graph Algorithm Template]()
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands/src)
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
