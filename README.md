@@ -92,15 +92,16 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [509. Fibonacci Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/509.%20Fibonacci%20Number/src)
 
 - Graph
-    - [Graph Algorithm Template]()
+    - [Graph Algorithm Template](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Graph-Algorithm-Template)
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands/src)
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
     - [841. Keys and Rooms](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/841.%20Keys%20and%20Rooms/src)
+    - [399. Evaluate Division]()
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
-        - [802. Find Eventual Safe States]()
+        - [802. Find Eventual Safe States](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/802.%20Find%20Eventual%20Safe%20States/src)
 
 - Union Find
     - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
