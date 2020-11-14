@@ -103,7 +103,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
         - [802. Find Eventual Safe States](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/802.%20Find%20Eventual%20Safe%20States/src)
     - Djikstra / directed graph shortest path
-        - [743. Network Delay Time]()
+        - [743. Network Delay Time](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/743.%20Network%20Delay%20Time/src)
+    - Bipartite
+        - [785. Is Graph Bipartite?]()
 
 - Union Find
     - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
