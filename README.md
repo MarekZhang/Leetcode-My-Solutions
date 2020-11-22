@@ -76,7 +76,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [153. Find Minimum in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/src)
     - [33. Search in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/33.%20Search%20in%20Rotated%20Sorted%20Array/src)
     - [81. Search in Rotated Sorted Array II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/src)
-    - [530. Minimum Absolute Difference in BST]()
+    - [530. Minimum Absolute Difference in BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/530.%20Minimum%20Absolute%20Difference%20in%20BST/src)
+    - [700. Search in a Binary Search Tree]()
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
