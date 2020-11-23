@@ -9,7 +9,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Most Know
     - [146. LRU Cache](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/146.%20LRU%20Cache/src)
 
-- Binary Tree / Binary Search Tree
+- Binary Tree / Binary Search Tree / Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
     - [110. Balanced Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/110.Balanced%20Binary%20Tree/src)
     - [124. Binary Tree Maximum Path Sum](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/124.%20Binary%20Tree%20Maximum%20Path%20Sum/src)
@@ -19,7 +19,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [98. Validate Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/98.Validate%20Binary%20Search%20Tree/src)
     - [701. Insert into a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/701.%20Insert%20into%20a%20Binary%20Search%20Tree/src)
     - [450. Delete Node in a BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/450.Delete%20Node%20in%20a%20BST/src)
-    - [814. Binary Tree Pruning]()
+    - [814. Binary Tree Pruning](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/814.%20Binary%20Tree%20Pruning/src)
+    - [429. N-ary Tree Level Order Traversal]()
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
