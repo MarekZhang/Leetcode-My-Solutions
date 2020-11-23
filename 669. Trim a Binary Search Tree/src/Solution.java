@@ -14,9 +14,9 @@
  * }
  */
 class Solution {
+    //time complexity O(N) | space complexity O(H)
     public TreeNode trimBST(TreeNode root, int low, int high) {
-        if(root == null)
-            return null;
+        if(root == null)return null;
         
         boolean lowBound = root.val < low; // out of range
         boolean highBound = root.val > high; // out of range
