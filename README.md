@@ -20,7 +20,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [701. Insert into a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/701.%20Insert%20into%20a%20Binary%20Search%20Tree/src)
     - [450. Delete Node in a BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/450.Delete%20Node%20in%20a%20BST/src)
     - [814. Binary Tree Pruning](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/814.%20Binary%20Tree%20Pruning/src)
-    - [429. N-ary Tree Level Order Traversal]()
+    - [429. N-ary Tree Level Order Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/429.%20N-ary%20Tree%20Level%20Order%20Traversal/src)
+    - [669. Trim a Binary Search Tree]()
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
