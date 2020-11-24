@@ -8,6 +8,7 @@
   - 两个连续left red branch
   - h.left == RED && h.right == RED
   - h.left == RED && h.left.right == RED
+  
 ![](rotate.png)
 
 ```java
