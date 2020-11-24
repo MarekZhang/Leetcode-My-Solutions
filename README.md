@@ -23,7 +23,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [429. N-ary Tree Level Order Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/429.%20N-ary%20Tree%20Level%20Order%20Traversal/src)
     - [669. Trim a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/669.%20Trim%20a%20Binary%20Search%20Tree/src)
     - [1325. Delete Leaves With a Given Value](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/src)
-    - [Red Black Tree]()
+    - [Red Black Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Red-Black-Tree)
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
