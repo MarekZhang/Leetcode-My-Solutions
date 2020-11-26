@@ -25,7 +25,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [1325. Delete Leaves With a Given Value](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/src)
     - [Red Black Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Red-Black-Tree)
     - [297. Serialize and Deserialize Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/src)
-    - [449. Serialize and Deserialize BST]()
+    - [449. Serialize and Deserialize BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/449.%20Serialize%20and%20Deserialize%20BST/src)
+    - [590. N-ary Tree Postorder Traversal]()
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
