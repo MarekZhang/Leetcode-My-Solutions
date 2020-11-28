@@ -9,6 +9,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Most Know
     - [146. LRU Cache](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/146.%20LRU%20Cache/src)
 
+- Divide and Conquer
+    - [169. Majority Element]()
+
 - Binary Tree / Binary Search Tree / Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
     - [110. Balanced Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/110.Balanced%20Binary%20Tree/src)
@@ -120,10 +123,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [785. Is Graph Bipartite?](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/785.%20Is%20Graph%20Bipartite%3F/src)
         - [886. Possible Bipartition](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/886.%20Possible%20Bipartition/src)
     - [Strong Components](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Strong%20Components)
-
-- Union Find
-    - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
-    - [721. Accounts Merge](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/721.%20Accounts%20Merge/src)
+    - Union Find
+      - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
+      - [721. Accounts Merge](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/721.%20Accounts%20Merge/src)
 
 - Two Pointers
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
