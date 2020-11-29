@@ -10,7 +10,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [146. LRU Cache](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/146.%20LRU%20Cache/src)
 
 - Divide and Conquer
-    - [169. Majority Element]()
+    - [34. Find First and Last Position of Element in Sorted Array]()
+    - [169. Majority Element](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/169.%20Majority%20Element/src)
 
 - Binary Tree / Binary Search Tree / Tree
     - [104. Maximum Depth of Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/104.Maximum%20Depth%20of%20Binary%20Tree/src)
