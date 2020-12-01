@@ -59,6 +59,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [141. Linked List Cycle](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/141.%20Linked%20List%20Cycle/src)
     - [142. Linked List Cycle II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/142.%20Linked%20List%20Cycle%20II/src)
     - [138. Copy List with Random Pointer](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/138.%20Copy%20List%20with%20Random%20Pointer)
+    - [160. Intersection of Two Linked Lists]()
 
 - Bitwise
     - [231. Power of Two](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/231.%20Power%20of%20Two/src)
@@ -68,7 +69,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [191. Number of 1 Bits](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/191.%20Number%20of%201%20Bits/src)
     - [338. Counting Bits](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/338.%20Counting%20Bits/src)
     - [190. Reverse Bits](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/190.%20Reverse%20Bits/src)
-    - [201. Bitwise AND of Numbers Range]()
+    - [201. Bitwise AND of Numbers Range](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/201.%20Bitwise%20AND%20of%20Numbers%20Range/src)
 
 - Queue and Stack
     - [155. Min Stack](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/155.%20Min%20Stack/src)
@@ -78,7 +79,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [133. Clone Graph](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/133.%20Clone%20Graph/src)
     - [232. Implement Queue using Stacks](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/232.%20Implement%20Queue%20using%20Stacks/src`)
     - [542. 01 Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/542.%2001%20Matrix/src)
-    - [742. Closest Leaf in a Binary Tree]()
+    - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/700.%20Search%20in%20a%20Binary%20Search%20Tree/src)
 
 - Binary Search
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
