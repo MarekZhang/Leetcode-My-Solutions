@@ -59,7 +59,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [141. Linked List Cycle](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/141.%20Linked%20List%20Cycle/src)
     - [142. Linked List Cycle II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/142.%20Linked%20List%20Cycle%20II/src)
     - [138. Copy List with Random Pointer](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/138.%20Copy%20List%20with%20Random%20Pointer)
-    - [160. Intersection of Two Linked Lists]()
+    - [160. Intersection of Two Linked Lists](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/160.%20Intersection%20of%20Two%20Linked%20Lists/src)
 
 - Bitwise
     - [231. Power of Two](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/231.%20Power%20of%20Two/src)
@@ -145,3 +145,6 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - TrackBack
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
+
+- Probability
+    - [382. Linked List Random Node]()
