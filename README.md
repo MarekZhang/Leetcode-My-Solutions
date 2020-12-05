@@ -46,7 +46,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Greedy Algorithm
     - [435. Non-overlapping Intervals](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/435.%20Non-overlapping%20Intervals/src)
-  
+    - [605. Can Place Flowers]() 
   
 - LinkedList
     - [83. Remove Duplicates from Sorted List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/83.Remove-Duplicated-List/src)
