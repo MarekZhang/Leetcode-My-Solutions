@@ -201,27 +201,68 @@ public class SelectSort {
 - 插入排序避免频繁调用swap函数的一个trick是将数值不断向前一位复制移动
 ```java
 public class InsertionSort {
-  public void sort(int[] arr){
+  public void sort(Integer[] arr){
 
     for(int i = 0; i < arr.length; i++){
+      int tempt = arr[i];
       int j = i;
-      for(; j > 0 && arr[j] < arr[j - 1]; j--){
+      for(; j > 0 && arr[j - 1] > tempt;j--){
         arr[j] = arr[j - 1];
       }
-      swap(arr, j, i);
+      arr[j] = tempt;
     }
   }
 
-  private void swap(int[] arr, int x, int y){
-    int tempt = arr[x];
-    arr[x] = arr[y];
-    arr[y] = tempt;
+
+  public static void main(String[] args) {
+    Integer arr[] = new Integer[1000];
+    Random rand = new Random();
+    for (int i = 0; i < 1000; i++) {
+      arr[i] = rand.nextInt(10000);
+    }
+    new InsertionSort().sort(arr);
+    System.out.println(Arrays.deepToString(arr));
+    boolean flag = true;
+    for (int i = 1; i < 1000; i++) {
+      if(arr[i] < arr[i - 1])
+        flag = false;
+    }
+    System.out.println(flag);
+  }
+}
+```
+
+### Shell Sort
+- shell sort的主要思想是对insertion sort的改良。insertion sort每次只交换一位，假设最小键值在数组最右侧，则需要N-1次交换才能将其移动至数组左端。而shell sort构造h-sort数组，随着h的减小，每次排序都能将sub array中较小元素向左端移动而较大元素向右端移动，这对最后h==1,也就是insertion sort的交换次数可以明显减少
+```java
+public class ShellSort {
+  private static final int LEN = 1000000;
+  public void sort(Integer arr[]) {
+    int N = arr.length;
+    int h = 1;
+    while(N / 3 > h) h = h * 3 + 1;
+    while (h >= 1) {
+      for (int i = h; i < N; i++) {
+        int tempt = arr[i];
+        int j = i;
+        for (; j >= h && arr[j - h] > tempt; j -= h) {
+          arr[j] = arr[j - h];
+        }
+        arr[j] = tempt;
+      }
+      h/=3;
+    }
   }
 
   public static void main(String[] args) {
-    int[] arr = SortTest.generate(10000);
-    new InsertionSort().sort(arr);
-    System.out.println(SortTest.isSorted(arr));
+    Integer arr[] = new Integer[LEN];
+    Random rand = new Random();
+    long l = System.currentTimeMillis();
+    for (int i = 0; i < LEN; i++) {
+      arr[i] = rand.nextInt(LEN);
+    }
+    new ShellSort().sort(arr);
+    System.out.println("running: " + (System.currentTimeMillis() - l));
   }
 }
 ```
