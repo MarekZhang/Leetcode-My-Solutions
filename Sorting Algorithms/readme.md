@@ -56,47 +56,88 @@ class QuickSort{
 ### Merge Sort
 - Merge Sort 的核心思想是至顶向下将整个数组打散，然后再bottom to top将数组合并
 - 一个小优化是在merge之前首先判断是否需要merge。因为mid的左边以及右边已经有序了，如果arr[mid]<= arr[mid + 1]那么无需merge数组就已经有序了
+- Top to Bottom
 ```java
-import java.util.Arrays;
-
 public class MergeSort {
-  public void sort(int[] arr){
-    mergeSort(arr, 0, arr.length - 1);
+  private Integer[] aux;
+  public void sort(Integer arr[]){
+    aux = new Integer[arr.length];
+    int N = arr.length;
+    sort(arr, 0, N - 1);
   }
 
-  private void mergeSort(int[] arr, int start, int end){
-    if(start >= end)
-        return;
-
-    int mid = start + (end - start) / 2;
-    mergeSort(arr, start, mid);
-    mergeSort(arr, mid + 1, end);
-    if(arr[mid] > arr[mid + 1])
-      merge(arr, start, mid, end);
+  private void sort(Integer arr[], int lo, int hi){
+    if(lo >= hi) return;
+    int mid = lo + (hi - lo) / 2;
+    sort(arr, lo, mid);
+    sort(arr, mid + 1, hi);
+    merge(arr, lo, mid, hi);
   }
 
-  private void merge(int[] arr, int start, int mid, int end){
-    int[] aux = Arrays.copyOfRange(arr, start, end + 1);
-    int l = start;
-    int r = mid + 1;
-    int i = start;
-    while(i <= end){
-      if(l > mid){
-        arr[i] = aux[r - start];
-        r++;
-      }else if(r > end){
-        arr[i] = aux[l - start];
-        l++;
-      }else if(aux[l - start] < aux[r - start]){
-        arr[i] = aux[l - start];
-        l++;
-      }else{
-        arr[i] = aux[r - start];
-        r++;
-      }
-
-      i++;
+  private void merge(Integer arr[], int lo, int mid, int hi){
+    int i = lo, j = mid + 1;
+    for(int k = lo; k <= hi; k++)
+      aux[k] = arr[k];
+    int k = lo;
+    while(k <= hi){
+      if(i > mid) arr[k]= aux[j++];
+      else if(j > hi) arr[k]= aux[i++];
+      else if(aux[i] > aux[j]) arr[k]= aux[j++];
+      else arr[k] = aux[i++];
+      k++;
     }
+  }
+
+  public static void main(String[] args) {
+    int LEN = 1000000;
+    Integer arr[] = ArrayUtil.randomArray(LEN);
+    long l = System.currentTimeMillis();
+    new MergeSort().sort(arr);
+    System.out.println("running: " + (System.currentTimeMillis() - l));
+    System.out.println(ArrayUtil.isSorted(arr));
+  }
+}
+```
+
+- Bottom Up
+```java
+public class MergeSortBT {
+  private Integer aux[];
+
+  public void sort(Integer arr[]){
+    int N = arr.length;
+    aux = new Integer[N];
+    sort(arr, 0, N - 1);
+  }
+
+  private void sort(Integer arr[], int lo, int hi){
+    if(lo >= hi) return;
+    int N = arr.length;
+    for(int sz = 1; sz < N; sz+=sz)
+      for(int i = 0; i < N - sz; i = i + 2 * sz)
+        merge(arr, i, i + sz - 1, Math.min(i + 2 * sz - 1, N - 1));
+  }
+
+  private void merge(Integer arr[], int lo, int mid, int hi){
+    int i = lo, j = mid + 1;
+    for(int k = lo; k <= hi; k++)
+      aux[k] = arr[k];
+    int k = lo;
+    while(k <= hi){
+      if(i > mid) arr[k] = aux[j++];
+      else if(j > hi) arr[k] = aux[i++];
+      else if(aux[i] > aux[j]) arr[k] = aux[j++];
+      else arr[k] = aux[i];
+      k++;
+    }
+  }
+  public static void main(String[] args) {
+    int LEN = 1000000;
+    Integer arr[] = ArrayUtil.randomArray(LEN);
+    long l = System.currentTimeMillis();
+    new MergeSortBT().sort(arr);
+    System.out.println("running: " + (System.currentTimeMillis() - l));
+    System.out.println(ArrayUtil.isSorted(arr));
   }
 }
 ```
