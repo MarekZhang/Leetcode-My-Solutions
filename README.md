@@ -144,10 +144,10 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
     - [350. Intersection of Two Arrays II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/350.%20Intersection%20of%20Two%20Arrays%20II/src)
     - [189. Rotate Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/189.%20Rotate%20Array/src)
-    - [59. Spiral Matrix II]()
+    - [59. Spiral Matrix II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/382.%20Linked%20List%20Random%20Node/src)
 
 - TrackBack
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
 
 - Probability
-    - [382. Linked List Random Node]()
+    - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/382.%20Linked%20List%20Random%20Node/src)
