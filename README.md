@@ -91,7 +91,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [33. Search in Rotated Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/33.%20Search%20in%20Rotated%20Sorted%20Array/src)
     - [81. Search in Rotated Sorted Array II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/src)
     - [530. Minimum Absolute Difference in BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/530.%20Minimum%20Absolute%20Difference%20in%20BST/src)
-    - [700. Search in a Binary Search Tree]()
+    - [700. Search in a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/blob/master/700.%20Search%20in%20a%20Binary%20Search%20Tree/src/Solution.java)
+    - [173. Binary Search Tree Iterator]()
 
 - FloodFill
     - [200. Number of Islands](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/200.Number%20of%20Islands)
@@ -145,6 +146,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [350. Intersection of Two Arrays II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/350.%20Intersection%20of%20Two%20Arrays%20II/src)
     - [189. Rotate Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/189.%20Rotate%20Array/src)
     - [59. Spiral Matrix II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/382.%20Linked%20List%20Random%20Node/src)
+    - [1010. Pairs of Songs With Total Durations Divisible by 60](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
 
 - TrackBack
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
