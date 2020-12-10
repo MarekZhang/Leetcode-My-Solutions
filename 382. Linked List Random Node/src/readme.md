@@ -1,16 +1,15 @@
-## Description
-// Init a singly linked list [1,2,3].
-ListNode head = new ListNode(1);
-head.next = new ListNode(2);
-head.next.next = new ListNode(3);
-Solution solution = new Solution(head);
+# 382. Linked List Random Node
 
-// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
-solution.getRandom();
+![382%20Linked%20List%20Random%20Node%202fc178ea91794967957d281afcc06319/Screenshot_2020-12-10_at_19.48.47.png](382%20Linked%20List%20Random%20Node%202fc178ea91794967957d281afcc06319/Screenshot_2020-12-10_at_19.48.47.png)
 
-## Solution
-- 对于当前的结点，它的index为n，将其作为最终result的概率是1/n; 其它结点作为最终res的概率需要 * (n-1)/n
-- 遍历到第一个node,它作为res的概率是1/1；遍历到第二个结点，它作为res的概率是1/2, 同时node1作为最终res的概率是1 * (1 - 1/2) = 1/2; 遍历到第三个结点，它作为res的概率是1/3; node2作为res的概率是(1/2 * 2/3) = 1/3; node1作为res的概率是(1/2 * 2/3) = 1/3...
+### Solution
+
+- 同algorithm 4th中quick sort shuffling的思想，在不获取数组总长度的情况下就能够equally likely select element
+- 随着i值的增加，每一个元素被选为最终结果的概率等于上一轮它被选中的概率 * 这一轮不被覆盖（random 值不等于当前轮的i值的概率). 比如第二轮选中arr[0]作为最终结果的概率为上一轮的概率p = 1 * 这一轮不被覆盖的概率也就是不random值≠ 1, $p = 1 * (1 - \frac{1}{2}) = \frac{1}{2}$. 第三轮arr[0]和arr[1]被选为最终结果的概率都等于它们上一轮被选中的概率*这一轮不被覆盖的概率$p = \frac{1}{2} * (1 - \frac{1}{3}) = \frac{1}{3}$
+
+![382%20Linked%20List%20Random%20Node%202fc178ea91794967957d281afcc06319/Screenshot_2020-12-10_at_19.59.25.png](382%20Linked%20List%20Random%20Node%202fc178ea91794967957d281afcc06319/Screenshot_2020-12-10_at_19.59.25.png)
+
+- 由此可得在不知道Linked List的长度的前提下，可以equally likely 选中每一个元素
 
 ```java
 /**
