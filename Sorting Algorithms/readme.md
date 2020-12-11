@@ -307,3 +307,79 @@ public class ShellSort {
   }
 }
 ```
+
+### Priority Queue
+- priority 的优势是如果我们只想取最大的几个值，就不需要对这个数组进行排序，因为这样时间复杂度是NlogN, 空间复杂度是O(N),而如果我们有priority queue，可以维护一个size为M的数组，不停的向这个小数组中插入和删除值，这样时间复杂度是NlogM,空间复杂度是O(M)
+- priority底层是complete(perfectly balanced, except for bottom level) binary tree
+- 两个关键的方法siftDown和siftUp
+
+```java
+public class PriorityQueue {
+  private Integer heap[];
+  private int N = 0;
+  public PriorityQueue(Integer arr[]){
+    heap = new Integer[arr.length + 1];
+    for(int num : arr){
+      insert(num);
+    }
+  }
+
+  public void insert(Integer key){
+    if(N == heap.length - 1) return;
+    heap[++N]= key;
+    siftUp(N);
+  }
+
+  public int deleteMax(){
+    int res = heap[1];
+    swap(heap, 1, N--);
+    heap[N + 1] = null;
+    siftDown(1);
+    return res;
+  }
+
+  public boolean isEmpty(){
+    return N == 0;
+  }
+
+  public int size() {
+    return N;
+  }
+
+  private void siftDown(int pos){
+    while(pos * 2 <= N){
+      int j = pos * 2;
+      if(j + 1 <= N && heap[j+1] > heap[j]) j++;
+      if(heap[pos] > heap[j]) break;
+      swap(heap, pos, j);
+      pos = j;
+    }
+  }
+
+  private void siftUp(int pos){
+    while(pos > 1){
+      int parent = pos / 2;
+      if(heap[parent] > heap[pos]) break;
+      swap(heap, pos, parent);
+      pos/=2;
+    }
+  }
+
+  private void swap(Integer arr[], int i, int j){
+    if(i == j) return;
+    Integer tempt = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tempt;
+  }
+
+  public static void main(String[] args) {
+    final int LEN = 1000000;
+    Integer arr[] = ArrayUtil.randomArray(LEN);
+    PriorityQueue queue = new PriorityQueue(arr);
+    Integer res[] = new Integer[LEN];
+    for(int i = LEN - 1; i >= 0; i--)
+      res[i] = queue.deleteMax();
+    System.out.println(ArrayUtil.isSorted(res));
+  }
+}
+```
