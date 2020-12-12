@@ -32,7 +32,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [449. Serialize and Deserialize BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/449.%20Serialize%20and%20Deserialize%20BST/src)
     - [590. N-ary Tree Postorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/590.%20N-ary%20Tree%20Postorder%20Traversal/src)
     - [897. Increasing Order Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/897.%20Increasing%20Order%20Search%20Tree/src)
-    - [117. Populating Next Right Pointers in Each Node II]()
+    - [117. Populating Next Right Pointers in Each Node II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
+    - [865. Smallest Subtree with all the Deepest Nodes]()
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
@@ -47,7 +48,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Greedy Algorithm
     - [435. Non-overlapping Intervals](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/435.%20Non-overlapping%20Intervals/src)
-    - [605. Can Place Flowers]() 
+    - [605. Can Place Flowers](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/605.%20Can%20Place%20Flowers/src) 
   
 - LinkedList
     - [83. Remove Duplicates from Sorted List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/83.Remove-Duplicated-List/src)
