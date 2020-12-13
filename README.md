@@ -33,7 +33,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [590. N-ary Tree Postorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/590.%20N-ary%20Tree%20Postorder%20Traversal/src)
     - [897. Increasing Order Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/897.%20Increasing%20Order%20Search%20Tree/src)
     - [117. Populating Next Right Pointers in Each Node II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
-    - [865. Smallest Subtree with all the Deepest Nodes]()
+    - [865. Smallest Subtree with all the Deepest Nodes](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes)
 
 - Recursion
     - [24. Swap Nodes in Pairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/24.Swap%20Nodes%20in%20Pairs/src)
@@ -109,6 +109,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [300. Longest Increasing Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/300.%20Longest%20Increasing%20Subsequence/src)
     - [1143. Longest Common Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1143.%20Longest%20Common%20Subsequence/src)
     - [509. Fibonacci Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/509.%20Fibonacci%20Number/src)
+    - [312. Burst Balloons]()
 
 - Graph
     - [Graph Algorithm Template](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Graph-Algorithm-Template)

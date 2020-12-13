@@ -19,7 +19,7 @@ class Solution {
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         depth = maxDepth(root); 
         dfs(root, 1);
-        LCS(root, 1);
+        LCA(root, 1);
         
         return res;
     }
@@ -39,7 +39,7 @@ class Solution {
         dfs(node.right, level + 1);
     }
 
-    private int LCS(TreeNode node, int level){
+    private int LCA(TreeNode node, int level){
         if(node == null) return 0;
         
         int leftCount = LCS(node.left, level + 1);
