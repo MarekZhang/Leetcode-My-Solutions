@@ -150,6 +150,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [189. Rotate Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/189.%20Rotate%20Array/src)
     - [59. Spiral Matrix II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/382.%20Linked%20List%20Random%20Node/src)
     - [1010. Pairs of Songs With Total Durations Divisible by 60](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
+    - [977. Squares of a Sorted Array]()
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
