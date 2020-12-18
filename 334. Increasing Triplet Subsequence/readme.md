@@ -4,7 +4,7 @@
 
 ### Solution
 
-- maintain two lower  boundary `first`  and `second`.
+- maintain two lower boundaries `first`  and `second`.
 - whenever we encounter an element which is smaller than `first` or `second` we would update the value.
 - update `first`  is reasonable as there's guarantee that an element smaller than `second` exists in the array. And update `first` is essential for finding smaller two boundaries
 
