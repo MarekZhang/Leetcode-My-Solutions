@@ -152,7 +152,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [1010. Pairs of Songs With Total Durations Divisible by 60](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
     - [977. Squares of a Sorted Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/977.%20Squares%20of%20a%20Sorted%20Array)
     - [454. 4Sum II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/454.4Sum-II/src)
-    - [334. Increasing Triplet Subsequence]()
+    - [334. Increasing Triplet Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/334.%20Increasing%20Triplet%20Subsequence)
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
