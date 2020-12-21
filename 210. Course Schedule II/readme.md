@@ -4,7 +4,7 @@
 
 ### Solution
 
-- we need to find if the graph is DAG and simultaneously store traversed elements in topological sort.
+- we need to find if the graph is DAG and simultaneously store traversed elements in reverse post order.
 - an auxiliary array named `visit` is used for storing visit status: 0 represents not visited; 1 means visited and 2 represents visiting
 
 ```java
