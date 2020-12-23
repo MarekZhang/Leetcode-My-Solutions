@@ -1,16 +1,18 @@
-## Leetcode 110. Balanced Binary Tree
+# 110. Balanced Binary Tree
+
 Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
 
-a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+> a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
 
-Input: root = [3,9,20,null,null,15,7]
-Output: true
+![110%20Balanced%20Binary%20Tree%2028b44d5bda674be9ab4ef9d202f860a4/Untitled.png](110%20Balanced%20Binary%20Tree%2028b44d5bda674be9ab4ef9d202f860a4/Untitled.png)
 
 ### Solution
-- 第一种解法借助求Tree的深度Top-Bottom从而比较左右节点深度是否相差超过1来确定是否为Balanced Binary Tree
-- 由于对于每一个节点都要进行高度的计算，导致算法时间复杂度为O(NlogN)
+
+- 之前的解法是对于每一个node的左右子结点求自顶向下遍历求高度，其实是没有必要的，完全可以自底向上返回的过程判断是否有结点违背balanced binary tree的定义
+- 使用dfs，遍历到底才开始递归向root返回高度，递归过程如果遇到左右subtree高度差大于1则最终结果为false
+
 ```java
 class Solution {
     //time complexity O(n * log(n)) || space complexity O(1)
@@ -34,39 +36,22 @@ class Solution {
 }
 ```
 
-- 第二种解法Bottom-Top，使用DFS，从leaf开始向上遍历，比较左右subtree的高度
 ```java
 class Solution {
-    private class TreeInfo{
-        public final int height;
-        public final boolean isBalanced;
-        public TreeInfo(int height, boolean isBalanced){
-            this.height = height;
-            this.isBalanced = isBalanced;
-        }
-        
-    }
-    
+    boolean isBalanced = true;
     public boolean isBalanced(TreeNode root) {
-        return dfs(root).isBalanced;
+        if(root == null) return true;
+        dfs(root);
+        return isBalanced;
     }
-    
-    private TreeInfo dfs(TreeNode root){
-        if(root == null)
-            return new TreeInfo(0, true);
-        
-        TreeInfo left = dfs(root.left);
-        if(!left.isBalanced)
-            return new TreeInfo(-1, false);
-        
-        TreeInfo right = dfs(root.right);
-        if(!right.isBalanced)
-            return new TreeInfo(-1, false);
-        
-        if(Math.abs(left.height - right.height) <= 1)
-            return new TreeInfo(Math.max(left.height, right.height) + 1, true);
-        
-        return new TreeInfo(-1, false);
+
+    private int dfs(TreeNode root) {
+        if(root == null) return 0;
+        int leftHeight = dfs(root.left);
+        int rightHeight = dfs(root.right);
+        if(Math.abs(leftHeight - rightHeight) > 1) isBalanced = false;
+
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 }
 ```
