@@ -1,3 +1,14 @@
+# 399. Evaluate Division
+
+![399%20Evaluate%20Division%2059d195fa9e054bb0aee1bfd25e48e9db/Untitled.png](399%20Evaluate%20Division%2059d195fa9e054bb0aee1bfd25e48e9db/Untitled.png)
+
+### Solution
+
+- 使用union find, 遍历整个equations将**除数**作为**被除数**的parent，并记录path weight, `find` 会更新被除数的parent为root node，并更新path weight
+
+    ![399%20Evaluate%20Division%2059d195fa9e054bb0aee1bfd25e48e9db/Untitled%201.png](399%20Evaluate%20Division%2059d195fa9e054bb0aee1bfd25e48e9db/Untitled%201.png)
+
+```java
 public class Solution {
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
         Map<String, String> parent = new HashMap<>();
@@ -45,3 +56,4 @@ public class Solution {
     }
     
 }
+```
