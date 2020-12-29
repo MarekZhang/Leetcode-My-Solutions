@@ -95,7 +95,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [530. Minimum Absolute Difference in BST](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/530.%20Minimum%20Absolute%20Difference%20in%20BST/src)
     - [700. Search in a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/blob/master/700.%20Search%20in%20a%20Binary%20Search%20Tree/src/Solution.java)
     - [173. Binary Search Tree Iterator](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/173.%20Binary%20Search%20Tree%20Iterator)
-    - [941. Valid Mountain Array]()
+    - [941. Valid Mountain Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/941.%20Valid%20Mountain%20Array)
 
 - Dynamic Programming
     - [121. Best Time to Buy and Sell Stock](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src)
@@ -107,7 +107,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [300. Longest Increasing Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/300.%20Longest%20Increasing%20Subsequence/src)
     - [1143. Longest Common Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1143.%20Longest%20Common%20Subsequence/src)
     - [509. Fibonacci Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/509.%20Fibonacci%20Number/src)
-    - [312. Burst Balloons]()
+    - [312. Burst Balloons](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/312.%20Burst%20Balloons)
 
 - Graph
     - [Graph Algorithm Template](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Graph-Algorithm-Template)
@@ -135,6 +135,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - Union Find
       - [1202. Smallest String With Swaps](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1202.%20Smallest%20String%20With%20Swaps/src)
       - [721. Accounts Merge](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/721.%20Accounts%20Merge/src)
+    - in-degree && out-degree
+      - [997. Find the Town Judge]()
 
 - Two Pointers
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
