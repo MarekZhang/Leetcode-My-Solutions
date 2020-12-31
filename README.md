@@ -158,7 +158,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [454. 4Sum II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/454.4Sum-II/src)
     - [334. Increasing Triplet Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/334.%20Increasing%20Triplet%20Subsequence)
     - [498. Diagonal Traverse](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/498.%20Diagonal%20Traverse)
-    - [289. Game of Life]()
+    - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
+    - Monotonic Stack
+      - [84. Largest Rectangle in Histogram]()
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
