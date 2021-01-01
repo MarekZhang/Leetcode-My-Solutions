@@ -160,7 +160,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [498. Diagonal Traverse](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/498.%20Diagonal%20Traverse)
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
     - Monotonic Stack
-      - [84. Largest Rectangle in Histogram]()
+      - [84. Largest Rectangle in Histogram](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/84.%20Largest%20Rectangle%20in%20Histogram)
+	  - [496. Next Greater Element I]()
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
