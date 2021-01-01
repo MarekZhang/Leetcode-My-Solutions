@@ -161,7 +161,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
     - Monotonic Stack
       - [84. Largest Rectangle in Histogram](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/84.%20Largest%20Rectangle%20in%20Histogram)
-	  - [496. Next Greater Element I]()
+	  - [496. Next Greater Element I](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/496.%20Next%20Greater%20Element%20I)
+	  - [503. Next Greater Element II]()
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
