@@ -127,7 +127,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
         - [802. Find Eventual Safe States](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/802.%20Find%20Eventual%20Safe%20States/src)
-    - Djikstra / directed graph shortest path
+    - Dijkstra / directed graph shortest path
         - [743. Network Delay Time](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/743.%20Network%20Delay%20Time/src)
     - Bipartite
         - [785. Is Graph Bipartite?](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/785.%20Is%20Graph%20Bipartite%3F/src)
