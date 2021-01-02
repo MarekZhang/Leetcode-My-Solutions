@@ -163,7 +163,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - Monotonic Stack
       - [84. Largest Rectangle in Histogram](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/84.%20Largest%20Rectangle%20in%20Histogram)
 	  - [496. Next Greater Element I](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/496.%20Next%20Greater%20Element%20I)
-	  - [503. Next Greater Element II]()
+	  - [503. Next Greater Element II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/503.%20Next%20Greater%20Element%20II)
+      - [739. Daily Temperatures]()
 
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
