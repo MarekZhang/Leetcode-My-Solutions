@@ -1,40 +1,61 @@
-class Solution {
-    //time complexity O(N * M) || space complexity O(M * N)
-    public int numBusesToDestination(int[][] routes, int S, int T) {
-        boolean[] buses = new boolean[routes.length];        
-        //stop : bus list
-        Map<Integer, ArrayList<Integer>> graph = new HashMap<>();
-        int count = 0; 
-        for(int i = 0; i < routes.length; i++) {
-            for(int j = 0; j < routes[i].length; j++){
-                int stop = routes[i][j];
-                graph.putIfAbsent(stop, new ArrayList<>());
-                graph.get(stop).add(i);
-                count++;
-            }
-        }
-        boolean[] stops = new boolean[count];
+import java.util.List;
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
+        Map<Integer, ArrayList<Integer>> graph = new HashMap<>();
+        buildGraph(root, graph);
+        List<Integer> res = new ArrayList<>();
+        boolean[] visited = new boolean[501];
+
+        //bfs
         LinkedList<int[]> queue = new LinkedList<>();
-        queue.addLast(new int[]{S, 0});
-        //每次入队列当前stop所在bus的所有stop
+        queue.addLast(new int[]{target.val, 0});
+        visited[target.val] = true;
         while(!queue.isEmpty()){
-            int[] pair = queue.removeFirst();
-            int s = pair[0];
-            if(s == T) return pair[1];
-            for(int bus : graph.get(s)){
-                if(!buses[bus]){
-                    buses[bus] = true;
-                    for(int stop : routes[bus]){
-                        if(!stops[stop]){
-                            stops[stop] = true;
-                            queue.addLast(new int[]{stop, pair[1] + 1});
-                        }
+            int[] arr = queue.removeFirst();
+            int nodeVal = arr[0];
+            int k = arr[1];
+            if(k == K) res.add(nodeVal);
+            else if(k < K){
+                for(int node : graph.get(nodeVal)){
+                    if(!visited[node]){
+                        visited[node] = true;
+                        queue.addLast(new int[]{node, k + 1});
                     }
                 }
             }
         }
 
-        return -1;
+        return res;
+    }
+
+    private void buildGraph(TreeNode root, Map<Integer, ArrayList<Integer>> graph) {
+        if(root == null) return;
+        int rootVal = root.val;
+        graph.putIfAbsent(rootVal, new ArrayList<>());
+
+        if(root.left != null){
+            int leftVal = root.left.val;
+            graph.putIfAbsent(leftVal, new ArrayList<>());
+            graph.get(rootVal).add(leftVal);
+            graph.get(leftVal).add(rootVal);
+            buildGraph(root.left, graph);
+        }
+        if(root.right != null){
+            int rightVal = root.right.val;
+            graph.putIfAbsent(rightVal, new ArrayList<>());
+            graph.get(rootVal).add(rightVal);
+            graph.get(rightVal).add(rootVal);
+            buildGraph(root.right, graph);
+        }
     }
 }
