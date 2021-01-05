@@ -124,8 +124,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
       - [733. Flood Fill](./733.%20Flood%20Fill)
     - BFS
       - [1162. As Far from Land as Possible](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1162.%20As%20Far%20from%20Land%20as%20Possible)
-      - [815. Bus Routes]()
-      - [863. All Nodes Distance K in Binary Tree]()
+      - [815. Bus Routes](./815.%20Bus%20Routes)
+      - [863. All Nodes Distance K in Binary Tree](./863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree)
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
@@ -173,7 +173,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Back Tracking 
     - [78. Subsets](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/78.Subsets/src)
     - [131. Palindrome Partitioning](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/131.Palindrome%20Partitioning/src)
-    - [526. Beautiful Arrangement]()
+    - [526. Beautiful Arrangement](./526.%20Beautiful%20Arrangement)
 
 - Probability
     - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree//master/382.%20Linked%20List%20Random%20Node/src)
