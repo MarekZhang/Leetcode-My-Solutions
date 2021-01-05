@@ -124,6 +124,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
       - [733. Flood Fill]()
     - BFS
       - [1162. As Far from Land as Possible](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1162.%20As%20Far%20from%20Land%20as%20Possible)
+      - [815. Bus Routes]()
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
@@ -174,4 +175,4 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [526. Beautiful Arrangement]()
 
 - Probability
-    - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/382.%20Linked%20List%20Random%20Node/src)
+    - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree//master/382.%20Linked%20List%20Random%20Node/src)
