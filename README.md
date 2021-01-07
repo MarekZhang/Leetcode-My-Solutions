@@ -87,7 +87,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [542. 01 Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/542.%2001%20Matrix/src)
     - [742. Closest Leaf in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/700.%20Search%20in%20a%20Binary%20Search%20Tree/src)
 
-- Binary Search
+- [Binary Search](./Binary-Search)
     - [35. Search Insert Position](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/35.%20Search%20Insert%20Position/src)
     - [74. Search a 2D Matrix](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/74.%20Search%20a%202D%20Matrix/src)
     - [278. First Bad Version](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/278.%20First%20Bad%20Version/src)
