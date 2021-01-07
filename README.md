@@ -98,6 +98,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [700. Search in a Binary Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/blob/master/700.%20Search%20in%20a%20Binary%20Search%20Tree/src/Solution.java)
     - [173. Binary Search Tree Iterator](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/173.%20Binary%20Search%20Tree%20Iterator)
     - [941. Valid Mountain Array](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/941.%20Valid%20Mountain%20Array)
+    - [1539. Kth Missing Positive Number](./1539.Kth-Missing-Positive-Number)
+    - [34. Find First and Last Position of Element in Sorted Array](./34.Find-First-and-Last-Position-of-Element-in-Sorted-Array)
 
 - Dynamic Programming
     - [121. Best Time to Buy and Sell Stock](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src)

@@ -8,7 +8,7 @@ class Solution {
         }
         if(left == nums.length || nums[left] != target) return new int[]{-1, -1}; 
         int pos = left;
-        while(pos < array.length && nums[pos] == arr[left]) pos++;
+        while(pos < nums.length && nums[pos] == nums[left]) pos++;
 
         return new int[]{left, pos - 1};
     }
