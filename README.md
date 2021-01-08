@@ -76,7 +76,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [190. Reverse Bits](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/190.%20Reverse%20Bits/src)
     - [201. Bitwise AND of Numbers Range](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/201.%20Bitwise%20AND%20of%20Numbers%20Range/src)
     - [289. Game of Life]()
-	- [50. Pow(x, n)](./50.Pow(x, n))
+	- [50. Pow(x, n)](./50)
 
 - Queue and Stack
     - [155. Min Stack](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/155.%20Min%20Stack/src)
