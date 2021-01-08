@@ -1,15 +1,20 @@
 class Solution {
-    public int[] searchRange(int[] nums, int target) {
-        int left = 0, right = nums.length - 1, mid;        
-        while(left <= right){
-            mid = left + (right - left) / 2;
-            if(nums[mid] >=  target) right = mid - 1;
-            else left = mid + 1; 
+    public void rotate(int[][] matrix) {
+        int N = matrix.length - 1;
+        //swap around the reverse diagonal
+        for(int i = 0; i < N; i++){
+            for(int j = 0; j < N - i; j++)
+                swap(matrix, i, j, N - j, N - i);
         }
-        if(left == nums.length || nums[left] != target) return new int[]{-1, -1}; 
-        int pos = left;
-        while(pos < array.length && nums[pos] == arr[left]) pos++;
+        //swap around the middle row
+        for(int i = 0; i < (N + 1) / 2; i++)
+            for(int j = 0; j <= N; j++)
+                swap(matrix, i, j, N - i, j);
+    }
 
-        return new int[]{left, pos - 1};
+    private void swap(int[][] matrix, int i, int j, int x, int y) {
+        int tempt = matrix[i][j];
+        matrix[i][j] = matrix[x][y];
+        matrix[x][y] = tempt;
     }
 }

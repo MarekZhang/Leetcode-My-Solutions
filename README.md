@@ -166,6 +166,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [334. Increasing Triplet Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/334.%20Increasing%20Triplet%20Subsequence)
     - [498. Diagonal Traverse](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/498.%20Diagonal%20Traverse)
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
+	- [48. Rotate Image](./48.Rotate-Image)
     - Monotonic Stack
       - [84. Largest Rectangle in Histogram](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/84.%20Largest%20Rectangle%20in%20Histogram)
 	  - [496. Next Greater Element I](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/496.%20Next%20Greater%20Element%20I)
