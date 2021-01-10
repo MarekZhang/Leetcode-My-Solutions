@@ -129,6 +129,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
       - [1162. As Far from Land as Possible](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1162.%20As%20Far%20from%20Land%20as%20Possible)
       - [815. Bus Routes](./815.%20Bus%20Routes)
       - [863. All Nodes Distance K in Binary Tree](./863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree)
+      - [127.Word Ladder](./127.Word-Ladder)
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
@@ -168,6 +169,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [498. Diagonal Traverse](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/498.%20Diagonal%20Traverse)
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
 	- [48. Rotate Image](./48.Rotate-Image)
+	- [56. Merge Intervals](./56.Merge-Intervals)
     - Monotonic Stack
       - [84. Largest Rectangle in Histogram](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/84.%20Largest%20Rectangle%20in%20Histogram)
 	  - [496. Next Greater Element I](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/496.%20Next%20Greater%20Element%20I)
