@@ -152,6 +152,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
     - [438. Find All Anagrams in a String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/438.Find-All-Anagrams/src)
     - [3. Longest Substring Without Repeating Characters](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/3.%20Longest%20Substring%20Without%20Repeating%20Characters/src)
+    - [88. Merge Sorted Array](./88.Merge-Sorted-Array)
   
 - Strings Manipulation
     - [937. Reorder Data in Log Files](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
