@@ -53,6 +53,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [605. Can Place Flowers](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/605.%20Can%20Place%20Flowers/src) 
   
 - LinkedList
+    - [2. Add Two Numbers](./2.Add-Two-Numbers)
     - [83. Remove Duplicates from Sorted List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/83.Remove-Duplicated-List/src)
     - [82. Remove Duplicates from Sorted List II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/82.Remove-Duplicate-From-Sorted-List-II/src)
     - [206. Reverse Linked List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/206.Reverse-Linked-List/src)
@@ -152,7 +153,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
     - [438. Find All Anagrams in a String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/438.Find-All-Anagrams/src)
     - [3. Longest Substring Without Repeating Characters](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/3.%20Longest%20Substring%20Without%20Repeating%20Characters/src)
-    - [88. Merge Sorted Array](./88.Merge-Sorted-Array)
+    - [88. Merge Sorted Array](./88.Merge-Sorted-Array/src)
   
 - Strings Manipulation
     - [937. Reorder Data in Log Files](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
