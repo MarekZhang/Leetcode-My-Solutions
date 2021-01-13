@@ -1,46 +1,24 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        return addDigits(l1, l2, 0);
+    public String getPermutation(int n, int k) {
+        List<Integer> list = new ArrayList<Integer>();
+        for(int i = 1; i <= n; i++) list.add(i);
+        StringBuilder builder = new StringBuilder();
+        int N = n;
+        while(k != 1){
+            int fac = 1;
+            for(int i = N - 1; i <= 1; i--) fac *= i;
+            int idx = k / fac;
+            builder.append(list.get(idx));
+            list.remove(idx);
+            k %= fac;
+            N--;
+        }
+        while(list.size() != 0){
+            builder.append(list.get(0));
+            list.remove(0);
+        }
+
+        return builder.toString();
     }
 
-    private ListNode addDigits(ListNode l1, ListNode l2, int carry){
-        if(l1 == null && l2 == null){
-            if(carry == 0) return null;
-            return new ListNode(carry);
-        }
-        int val1, val2;
-        int nex1, nex2;
-        if(l1 == null){
-            val1 = 0;
-            nex1 = null;
-        }else{
-            val1 = l1.val;
-            next1 = l1.next;
-        }
-
-        if(l2 == null){
-            val2 = 0;
-            nex2 = null;
-        }else{
-            val2 = l2.val;
-            next2 = l2.next;
-        }
-
-        int sum = val1 + val2 + carry;
-        int bit = sum > 9 ? 1 : 0;
-        ListNode cur = new ListNode(sum % 10);
-        cur.next = addDigits(l1.next, l2.next, bit);
-
-        return cur;
-    }
 }

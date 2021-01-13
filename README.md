@@ -51,9 +51,10 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Greedy Algorithm
     - [435. Non-overlapping Intervals](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/435.%20Non-overlapping%20Intervals/src)
     - [605. Can Place Flowers](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/605.%20Can%20Place%20Flowers/src) 
+	- [881. Boats to Save People](./881.Boats-to-Save-People)
   
 - LinkedList
-    - [2. Add Two Numbers](./2.Add-Two-Numbers)
+    - [2. Add Two Numbers](./2.Add-Two-Numbers/src)
     - [83. Remove Duplicates from Sorted List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/83.Remove-Duplicated-List/src)
     - [82. Remove Duplicates from Sorted List II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/82.Remove-Duplicate-From-Sorted-List-II/src)
     - [206. Reverse Linked List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/206.Reverse-Linked-List/src)
