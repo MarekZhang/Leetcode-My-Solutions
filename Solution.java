@@ -1,24 +1,28 @@
 class Solution {
-    public String getPermutation(int n, int k) {
-        List<Integer> list = new ArrayList<Integer>();
-        for(int i = 1; i <= n; i++) list.add(i);
-        StringBuilder builder = new StringBuilder();
-        int N = n;
-        while(k != 1){
-            int fac = 1;
-            for(int i = N - 1; i <= 1; i--) fac *= i;
-            int idx = k / fac;
-            builder.append(list.get(idx));
-            list.remove(idx);
-            k %= fac;
-            N--;
-        }
-        while(list.size() != 0){
-            builder.append(list.get(0));
-            list.remove(0);
+    public int minOperations(int[] nums, int x) {
+        Map<Integer, Integer> left = new HashMap<Integer, Integer>();
+        int sum = 0, N = nums.length;
+        
+        for(int i = 0; i < N - 1 && sum < x; i++){
+            //need add sum == 0 to the map, the operations can be all in right side
+            left.put(sum, i);
+            sum += nums[i];
         }
 
-        return builder.toString();
+        int res = Integer.MAX_VALUE;
+        sum = 0;
+        //find the complement part in the right side
+        for(int i = N - 1; i >= 0 && sum <= x; i--){
+            //need consider complement == x, the operations can be all in left side
+            int complement = x - sum;
+            if(left.containsKey(complement)){
+                int operations = left.get(complement) + N - 1 - i;
+                res = res < operations ? res : operations; 
+            }
+            sum += nums[i];
+        }
+
+        return res ==  Integer.MAX_VALUE ? -1 : res;
     }
 
 }
