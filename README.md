@@ -158,6 +158,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
   
 - Strings Manipulation
     - [937. Reorder Data in Log Files](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
+    - [1657. Determine if Two Strings Are Close](./1657.-Determine-if-Two-Strings-Are-Close)
 
 - Array
     - [217. Contains Duplicate](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/217.Contains-Duplicate/src)
