@@ -1,33 +1,18 @@
 class Solution {
-    public boolean closeStrings(String word1, String word2) {
-        int N1 = word1.length();        
-        int N2 = word2.length();
-        if(N1 != N2) return false;
-        int[] cnt1 = new int[128];
-        int[] cnt2 = new int[128];
-        for(int i = 0; i < cnt1.length; i++){
-            cnt1[word1.charAt(i) - 'a']++; 
-            cnt2[word2.charAt(i) - 'a']++; 
-        }
+    public int[] decode(int[] encoded) {
+        int N = encoded.length + 1;
+        int[] res = new int[N];
+        // mask1 = a0^a1^a2...an-1 = 1^2^3^...N
+        int mask1 = 0, mask2 = 0;
+        for(int i = 1; i <= N ;i++) mask ^= i;
 
-        int[] pe1 = new int[N1];
-        int[] pe2 = new int[N2];
+        // mask2 = a1^a2...an-1
+        for(int i = 1; i < N - 2; i+=2)
+            mask2 ^= encoded[i];
+        res[0] = mask1 ^ mask2;
+
+        for(int i = 1; i < N; i++)
+            res[i] = encoded[i - 1] ^ res[i - 1];
         
-        int idx = 0;
-        for(int i = 0; i < N1; i++){
-            if(cnt1[i] != 0 || cnt2[i] != 0){
-                if(cnt1[i] == 0 || cnt2[i] == 0) return false;
-                pe1[idx++] = cnt1[i];
-                pe2[idx++] = cnt2[i];
-            }
-        }
-
-        Arrays.sort(pe1);
-        Arrays.sort(pe2);
-
-        for(int i = 0; i < N1; i++)
-            if(pe1[i] != pe2[i]) return false;
-
-        return ture;
     }
 }
