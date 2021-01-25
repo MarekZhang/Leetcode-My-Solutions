@@ -33,6 +33,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [590. N-ary Tree Postorder Traversal](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/590.%20N-ary%20Tree%20Postorder%20Traversal/src)
     - [897. Increasing Order Search Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/897.%20Increasing%20Order%20Search%20Tree/src)
     - [117. Populating Next Right Pointers in Each Node II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
+    - [95. Unique Binary Search Trees II](./95.Unique-Binary-Search-Trees-II)
     - [865. Smallest Subtree with all the Deepest Nodes](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes)
     - [1457. Pseudo-Palindromic Paths in a Binary Tree](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/1457.%20Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree)
     - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree]()
@@ -78,7 +79,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [190. Reverse Bits](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/190.%20Reverse%20Bits/src)
     - [201. Bitwise AND of Numbers Range](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/201.%20Bitwise%20AND%20of%20Numbers%20Range/src)
     - [289. Game of Life]()
-	  - [50. Pow(x, n)](./50)
+  - [50. Pow(x, n)](./50)
     - [1734. Decode XORed Permutation](./1734.Decode-XORed-Permutation)
 
 
