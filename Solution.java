@@ -14,28 +14,30 @@
  * }
  */
 class Solution {
-    public List<TreeNode> generateTrees(int n) {
-        return generate(1, n);
+    private int max, min;
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        Map<Integer, PriorityQueue<int[]>> map = new HashMap<>();
+        traverse(root, 0, 0, map);
+        
     }
 
-    private List<TreeNode> generate(int left, int right){
-        List<TreeNode> res = new ArrayList<TreeNode>();
-        if(left > right) return res; 
+    private void traverse(TreeNode node, int x, int y, Map<Integer, PriorityQueue<int[]>> map){
+        if(node == null) return;
+        traverse(node.left, x - 1, y - 1, map);
+        map.putIfAbsent(x, new PriorityQueue<>(new NodeComparator()));
+        map.get(x).put(new int[]{y, node.val});
+        max = Integer.max(max, x);
+        min = Integer.min(min, x);
+        traverse(node.right, x + 1, y - 1, map);
+    }
 
-        for(int i = left; i <= right; i++){
-            List<TreeNode> leftList = generate(left, i - 1);
-            List<TreeNode> rightList = generate(i + 1, right);
-
-            for(TreeNode leftNode : leftList){
-                for(TreeNode rightNode : rightList){
-                    TreeNode cur = new TreeNode(i);
-                    cur.left = leftNode;
-                    cur.right = rightNode;
-                    res.add(cur);
-                }
-            }
+    private class NodeComparator implements Comparator<int[]>{
+        //arr[0] represents y, arr[1] represents value
+        public int compare(int[] arr1, int[] arr2) {
+            if(arr1[0] > arr2[1]) return 1;
+            else if(arr1[0] < arr2[1]) return -1;
+            else return arr1[1] - arr2[1];
         }
-
-        return res;
     }
 }
+
