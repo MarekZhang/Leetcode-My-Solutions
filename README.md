@@ -164,6 +164,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [1657. Determine if Two Strings Are Close](./1657.-Determine-if-Two-Strings-Are-Close)
 
 - Array
+    - [118. Pascal's Triangle](./118.Pascal's-Triangle)
     - [217. Contains Duplicate](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/217.Contains-Duplicate/src)
     - [136. Single Number](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/136.%20Single%20Number/src)
     - [350. Intersection of Two Arrays II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/350.%20Intersection%20of%20Two%20Arrays%20II/src)
