@@ -194,3 +194,5 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Probability
     - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree//master/382.%20Linked%20List%20Random%20Node/src)
+- Others
+    - [284. Peeking Iterator](./284.Peeking-Iterator)
