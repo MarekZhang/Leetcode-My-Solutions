@@ -177,6 +177,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [334. Increasing Triplet Subsequence](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/334.%20Increasing%20Triplet%20Subsequence)
     - [498. Diagonal Traverse](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/498.%20Diagonal%20Traverse)
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
+    - [1337. The K Weakest Rows in a Matrix](./1337.The-K-Weakest-Rows-in-a-Matrix)
     - [1748. Sum of Unique Elements](./1748.Sum-of-Unique-Elements)
 	- [48. Rotate Image](./48.Rotate-Image)
 	- [56. Merge Intervals](./56.Merge-Intervals)
