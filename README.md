@@ -194,6 +194,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [131. Palindrome Partitioning](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/131.Palindrome%20Partitioning/src)
     - [526. Beautiful Arrangement](./526.%20Beautiful%20Arrangement)
 
+- String
+    - [784. Letter Case Permutation](./784.%20Letter%20Case%20Permutation)
+
 - Probability
     - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree//master/382.%20Linked%20List%20Random%20Node/src)
 - Others
