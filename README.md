@@ -179,6 +179,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [289. Game of Life](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/289.%20Game%20of%20Life)
     - [1337. The K Weakest Rows in a Matrix](./1337.The-K-Weakest-Rows-in-a-Matrix)
     - [1748. Sum of Unique Elements](./1748.Sum-of-Unique-Elements)
+    - [485. Max Consecutive Ones](./485.Max-Consecutive-Ones)
 	- [48. Rotate Image](./48.Rotate-Image)
 	- [56. Merge Intervals](./56.Merge-Intervals)
 	- [1658. Minimum Operations to Reduce X to Zero](1658.Minimum-Operations-to-Reduce-X-to-Zero)
@@ -199,5 +200,11 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Probability
     - [382. Linked List Random Node](https://github.com/MarekZhang/Leetcode-My-Solutions/tree//master/382.%20Linked%20List%20Random%20Node/src)
+
 - Others
     - [284. Peeking Iterator](./284.Peeking-Iterator)
+
+- [Cracking The Coding Interview](https://ryanym.com/posts/ctci-on-leetcode/#chapter-1--arrays-and-strings)
+    - Chapter 1 Arrays and String
+      - [443. String Compression](./443.String-Compression)
+      
