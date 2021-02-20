@@ -206,6 +206,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - [Cracking The Coding Interview](https://ryanym.com/posts/ctci-on-leetcode/#chapter-1--arrays-and-strings)
     - Chapter 1 Arrays and String
-      - [443. String Compression](./443.String-Compression)
-	    - [48. Rotate Image](./48.Rotate-Image)
-      - [73. Set Matrix Zeroes](./73.Set-Matrix-Zeroes)
+
+        - [443. String Compression](./443.String-Compression)
+	      - [48. Rotate Image](./48.Rotate-Image)
+        - [73. Set Matrix Zeroes](./73.Set-Matrix-Zeroes)
+        - [796. Rotate String](./796.Rotate-String)
