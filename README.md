@@ -212,4 +212,6 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [796. Rotate String](./796.Rotate-String)
 
     - Chapter 8 Recursion and Dynamic Programming
-        - [70.climbing stairs](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/70.climbing%20stairs/src)
+        - [62.Unique Paths](./62.Unique%20Paths/src)
+        - [70.climbing stairs](./70.climbing%20stairs/src)
+        - [78.Subsets](./78.Subsets/src)
