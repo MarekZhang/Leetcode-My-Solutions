@@ -7,5 +7,27 @@
 - use two pointers
 
 ```java
+class Solution {
+    //time complexity O(N) || space complexity O(1)
+  public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode dummyhead = new ListNode(-1);
+    dummyhead.next = head;
+    ListNode prev, cur;
+    prev = cur = dummyhead;
+    while(n > 0){
+      cur = cur.next;
+      n--;
+    }
 
+    // find the prev node of the target node
+    while(cur.next != null){
+      prev = prev.next;
+      cur = cur.next;
+    }
+
+    prev.next = prev.next.next;
+
+    return dummyhead.next;
+  }
+}
 ```
