@@ -213,6 +213,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
    - Chapter 2 Linked List
         - [19.Remove Nth Node From End of List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/19.Remove%20Nth%20Node%20From%20End%20of%20List/src)
+        - [86.Partition List](./86.Partition-List/src)
 
     - Chapter 8 Recursion and Dynamic Programming
         - [62.Unique Paths](./62.Unique%20Paths/src)
