@@ -212,8 +212,11 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [796.Rotate String](./796.Rotate-String)
 
    - Chapter 2 Linked List
+        - [83.Remove Duplicated List](./83.Remove-Duplicated-List/src)
         - [19.Remove Nth Node From End of List](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/19.Remove%20Nth%20Node%20From%20End%20of%20List/src)
         - [86.Partition List](./86.Partition-List/src)
+        - [2.Add two numbers](./2.Add-Two-Numbers/src)
+        - [237. Delete Node in a Linked List](./237.Delete%20Node%20in%20a%20Linked%20List/src)
 
     - Chapter 8 Recursion and Dynamic Programming
         - [62.Unique Paths](./62.Unique%20Paths/src)
