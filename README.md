@@ -1,4 +1,4 @@
-# Leetcode-My-Solutions
+# Leetcode-My-Solutons
 This repo recors my daily LeetCode algo problems solutions.
 Problems list reffered to [greyireland - algorithm-pattern](https://github.com/greyireland/algorithm-pattern)
 
@@ -217,6 +217,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [86.Partition List](./86.Partition-List/src)
         - [2.Add two numbers](./2.Add-Two-Numbers/src)
         - [237. Delete Node in a Linked List](./237.Delete%20Node%20in%20a%20Linked%20List/src)
+        - [160. Intersection of Two Linked Lists](./160.%20Intersection%20of%20Two%20Linked%20Lists/src)
 
     - Chapter 8 Recursion and Dynamic Programming
         - [62.Unique Paths](./62.Unique%20Paths/src)
