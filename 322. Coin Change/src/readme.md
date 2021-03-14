@@ -42,3 +42,26 @@ class Solution {
     }
 }
 ```
+
+```java
+class Solution {
+  public int coinChange(int[] coins, int amount) {
+    // memo[i] represents the minimum number of coins we need to make up amount i
+    int[] memo = new int[amount + 1];
+    int len = coins.length;
+    Arrays.fill(memo, -1);
+    memo[0] = 0;
+    for(int i = 1; i <= amount; i++){
+      for(int j = 0; j < len; j++){
+        int money = i - coins[j];
+        if(money >= 0 && memo[money] != -1){
+          if(memo[money] + 1 < memo[i] || memo[i] == -1)
+            memo[i] = 1 + memo[money];
+        }
+      }
+    }
+
+    return memo[amount];
+  }
+}
+```
