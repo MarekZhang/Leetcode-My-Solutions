@@ -218,12 +218,9 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
         - [86.Partition List](./86.Partition-List/src)
         - [2.Add two numbers](./2.Add-Two-Numbers/src)
         - [237. Delete Node in a Linked List](./237.Delete%20Node%20in%20a%20Linked%20List/src)
-<<<<<<< HEAD
         - [160. Intersection of Two Linked Lists](./160.%20Intersection%20of%20Two%20Linked%20Lists/src)
-=======
         - [234.Palindrome Linked List](./234.Palindrome%20Linked%20List/src)
         - [160.Intersection of Two Linked Lists](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/160.%20Intersection%20of%20Two%20Linked%20Lists/src)
->>>>>>> 12bbac4a918b09e802551c567c35f4cc2bc85f6c
 
     - Chapter 8 Recursion and Dynamic Programming
         - [62.Unique Paths](./62.Unique%20Paths/src)
