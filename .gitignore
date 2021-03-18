@@ -2,3 +2,5 @@
 *.o
 Solution.java
 Practice.go
+*.swo
+*.swp
