@@ -144,7 +144,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - Dijkstra / directed graph shortest path
         - [743. Network Delay Time](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/743.%20Network%20Delay%20Time/src)
     - Bipartite
-        - [785. Is Graph Bipartite?](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/785.%20Is%20Graph%20Bipartite%3F/src)
+        - [785. Is Graph Bipartite?](./785.Is-Graph-Bipartite/src)
         - [886. Possible Bipartition](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/886.%20Possible%20Bipartition/src)
     - [Strong Components](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Strong%20Components)
     - Union Find
