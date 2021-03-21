@@ -164,6 +164,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - Strings Manipulation
     - [937. Reorder Data in Log Files](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/937.%20Reorder%20Data%20in%20Log%20Files/src)
     - [1657. Determine if Two Strings Are Close](./1657.-Determine-if-Two-Strings-Are-Close)
+    - [869. Reordered Power of 2](./869.Reordered-Power-of-2)
 
 - Array
     - [118. Pascal's Triangle](./118.Pascal's-Triangle)
