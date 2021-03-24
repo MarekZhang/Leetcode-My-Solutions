@@ -183,6 +183,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [1337. The K Weakest Rows in a Matrix](./1337.The-K-Weakest-Rows-in-a-Matrix)
     - [1748. Sum of Unique Elements](./1748.Sum-of-Unique-Elements)
     - [485. Max Consecutive Ones](./485.Max-Consecutive-Ones)
+    - [923.3Sum With Multiplicity](./923.3Sum-With-Multiplicity)
 	- [48. Rotate Image](./48.Rotate-Image)
 	- [56. Merge Intervals](./56.Merge-Intervals)
 	- [1658. Minimum Operations to Reduce X to Zero](1658.Minimum-Operations-to-Reduce-X-to-Zero)
