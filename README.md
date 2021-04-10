@@ -137,6 +137,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
       - [815. Bus Routes](./815.%20Bus%20Routes)
       - [863. All Nodes Distance K in Binary Tree](./863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree)
       - [127.Word Ladder](./127.Word-Ladder)
+      - [329.Longest-Increasing-Path-in-a-Matrix](./329.Longest-Increasing-Path-in-a-Matrix)
     - Topological Sort
         - [207. Course Schedule](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/207.%20Course%20Schedule/src)
         - [210. Course Schedule II](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/210.%20Course%20Schedule%20II/src)
