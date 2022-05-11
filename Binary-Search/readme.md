@@ -52,6 +52,7 @@ int binarySearch(int[] nums, int target) {
 ### 寻找左侧边界
 
 - 构建闭区间`[left, right]`；由于while退出条件为`left == right + 1`, 且right取值范围为`[0, arr.length - 1]`, 则left的取值可能为`arr.length`, 左边界需要返回`left`，则需要对`left`是否等于`arr.length`进行判断
+- <b>left最后的index == 小于target的元素的个数</b>
 
 ```c
 int binarySearch(int[] nums, int target) {
@@ -76,6 +77,7 @@ int binarySearch(int[] nums, int target) {
 ### 寻找右侧边界
 
 - 构建比区间[left, right]; 由于while退出条件为`left == right + 1` ，且left的取值范围为`[0, arr.length-1]`,且需要返回right，right的取值可能为`-1` ，则需要对`right` 是否为-1进行判断
+- <b>right 最后的index == 不大于target的元素的个数</b>
 
 ```c
 int binarySearch(int[] nums, int target) {
