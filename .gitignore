@@ -4,3 +4,4 @@ Solution.java
 Practice.go
 *.swo
 *.swp
+**/.DS_Store
