@@ -181,6 +181,7 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 
 - Array
 
+  - [66. Plus One](./66.Plus-One/)
   - [118. Pascal's Triangle](./118.Pascal's-Triangle)
   - [119. Pascal's Triangle II](./119.Pascal's-Triangle-II)
   - [217. Contains Duplicate](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/217.Contains-Duplicate/src)
