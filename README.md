@@ -220,6 +220,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
 - String
 
   - [784. Letter Case Permutation](./784.%20Letter%20Case%20Permutation)
+  - StringBuilder
+    - [67. Add Binary](./67.Add-Binary/)
 
 - Probability
 
