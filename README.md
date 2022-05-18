@@ -168,6 +168,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
     - [997. Find the Town Judge]()
   - [Bellmand-Ford](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/Bellmand-Ford)
     - [787. Cheapest Flights Within K Stops](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/787.%20Cheapest%20Flights%20Within%20K%20Stops)
+  - Tarjan
+    - [1192.Critical-Connections-in-a-Network](./1192.Critical-Connections-in-a-Network/)
 
 - Two Pointers
   - [567. Permutation in String](https://github.com/MarekZhang/Leetcode-My-Solutions/tree/master/742.%20Closest%20Leaf%20in%20a%20Binary%20Tree/src)
