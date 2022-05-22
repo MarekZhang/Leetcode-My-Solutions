@@ -224,6 +224,8 @@ Problems list reffered to [greyireland - algorithm-pattern](https://github.com/g
   - [784. Letter Case Permutation](./784.%20Letter%20Case%20Permutation)
   - StringBuilder
     - [67. Add Binary](./67.Add-Binary/)
+  - Palindrome
+    - [647. Palindromic Substrings](./647.Palindromic-Substrings/)
 
 - Probability
 
